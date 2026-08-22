@@ -1,0 +1,210 @@
+Annex B (normative):
+Conditions for RRM requirements applicability for operating bands
+
+B.1	Conditions for NR RRC_IDLE state mobility
+B.1.1	Introduction
+In Annex B.1, the following conditions are specified:
+-	UE conditions which shall apply for UE intra-frequency measurements procedures and requirements in clause 4,
+-	UE conditions which shall apply for UE inter-frequency measurements procedures and requirements in clause 4.
+B.1.2	Conditions for measurements on NR intra-frequency cells for cell re-selection
+This clause defines the following conditions for NR intra-frequency measurements performed based on SSBs for cell re-selection: SSB_RP and SSB Ês/Iot, applicable for a corresponding operating band.
+The conditions are defined in Table B.1.2-1 for FR1 NR cells.
+The conditions are defined in Table B.1.2-2 for FR2 NR cells.
+Table B.1.2-1: Conditions for intra-frequency cell re-selection in FR1
+
+Table B.1.2-2: Conditions for intra-frequency cell re-selection in FR2
+
+Editor’s notes for Table B.1.2-2: 
+- The value of Y for Power class 4 is FFS, where Y4 is the rough/fine beam gain difference in Rx beam peak direction for Power class 4  
+- The value of Z for Power class 4 is FFS, where Z4 is the rough/fine beam gain difference in spherical coverage directions for Power class 4 
+B.1.3	Conditions for measurements on NR inter-frequency cells for cell re-selection
+This clause defines the following conditions for NR inter-frequency measurements performed based on SSBs for cell re-selection: SSB_RP and SSB Ês/Iot, applicable for a corresponding operating band.
+The conditions defined in Table B.1.2-1 for FR1 NR intra-frequency cell re-selection shall also apply for FR1 NR inter-frequency cells in this clause.
+The conditions defined in Table B.1.2-2 for FR2 NR intra-frequency cell re-selection shall also apply for FR2 NR inter-frequency cells in this clause.
+B.2	Conditions for UE measurements procedures and performance requirements in RRC_CONNECTED state
+B.2.1	Introduction
+B.2.1.1	General
+In Annex B.2, the following conditions are specified:
+-	The conditions for RRC connection release with redirection to NR requirements in clause 6.2.3.2.1,
+-	The conditions for UE transmit timing adjustment in clause 7.1,
+-	UE conditions which shall apply for UE intra-frequency measurements procedures and requirements in clause 9,
+	UE conditions which shall apply for UE inter-frequency measurements procedures and requirements in clause 9,
+-	UE conditions which shall apply for UE intra-frequency measurements performance requirements in clause 10,
+-	UE conditions which shall apply for UE inter-frequency measurements performance requirements in clause 10.
+B.2.1.2	Derivation of Minimum SSB_RP values for FR1
+[FFS]
+B.2.1.3	Derivation of Minimum SSB_RP values for FR2
+Editor’s note: 
+-	The Assumption for UE beams (fine or rough) in Annex A RRM test cases is defined based on power class 3, and unless otherwise stated also applies for other UE power classes
+B.2.1.3.1	Minimum SSB_RP values for Rx Beam Peak angle of arrival
+Minimum SSB_RP values in Tables B.2.2-2 and B.2.3-2 are based on reference sensitivity for the Operating band and for the UE power class, taking a baseline of UE power class 3 in Band n260 with 50 MHz channel bandwidth.
+	Minimum SSB_RP = Reference sensitivity PC3, n260, 50MHz +Y -10Log10(PRBRefsens x 12) – SNRRefsens + SSB Ês/Iot + ∆MBP,n
+where:
+	Reference sensitivity PC3, n260, 50MHz is the reference sensitivity value in dBm specified for power class 3 in Band n260 for 50 MHz Channel bandwidth in Table 7.3.2.3-1 of TS 38.101-2 [19];
+	Y is the gain difference between fine and rough beams, which is defined in Table B.2.1.3.1-1;
+Table B.2.1.3.1-1: Gain difference Y between fine and rough beams, Rx beam peak direction
+
+	PRBRefsens is NRB associated with subcarrier spacing 120 kHz for 50MHz in TS 38.101-2 [19] Table 5.3.2-1, and is 32;
+	12 is the number of subcarriers in a PRB;
+	SNRRefsens is the SNR used for simulation of Refsens and EIS spherical coverage, and is -1 dB;
+	SSB Ês/Iot is the minimum value required by the UE to perform measurements, and is -6 dB for intra-frequency measurements and -4 dB for inter-frequency measurements. The only contribution to Iot is the UE internal noise;
+	∆MBP,n is the UE multi-band relaxation factor value in dB specified in TS 38.101-2 [19] clause 6.2.1.
+The calculated Minimum SSB_RP value for the baseline of UE power class 3 in Band n260 is (-109.5+∆MBP,n) dBm/120kHz for intra-frequency measurements and (-107.5+∆MBP,n ) dBm/120kHz for inter-frequency measurements.
+The following methodology to define the Minimum SSB_RP level for power class X (PC_X) and operating band Y (Band_Y) is used:
+	For Intra-frequency: Minimum SSB_RP (PC_X, Band_Y) = -109.5 dBm/120kHz + Refsens PC_X, Band_Y, 50MHz – Refsens PC3, n260, 50MHz + Y PC_X – Y PC3 +∆MBP,n,
+For Inter-frequency: Minimum SSB_RP (PC_X, Band_Y) = -107.5 dBm/120kHz + Refsens PC_X, Band_Y, 50MHz – Refsens PC3, n260, 50MHz + Y PC_X – Y PC3 +∆MBP,n .
+B.2.1.3.2	Minimum SSB_RP values for angle of arrival within Spherical coverage
+Minimum SSB_RP values in Tables B.2.2-2 and B.2.3-2 are based on EIS spherical coverage for the Operating band and for the UE power class, taking a baseline of UE power class 3 in Band n260 with 50 MHz channel bandwidth.
+	Minimum SSB_RP = EIS spherical coverage PC3, n260, 50MHz +Z -10Log10(PRBRefsens x 12) – SNRRefsens + SSB Ês/Iot + ∆MBS,n,
+where:
+	EIS spherical coverage PC3, n260, 50MHz is the EIS spherical coverage value in dBm specified for power class 3 in Band n260 for 50MHz Channel bandwidth in TS 38.101-2 [19] Table 7.3.4.3-1;
+	Z is the gain difference between fine and rough beams, and is defined in Table B.2.1.3.2-1;
+Table B.2.1.3.2-1: Gain difference Z between fine and rough beams, Spherical coverage directions
+
+	PRBRefsens is NRB associated with subcarrier spacing 120 kHz for 50MHz in TS 38.101-2 [19] Table 5.3.2-1, and is 32;
+	12 is the number of subcarriers in a PRB;
+	SNRRefsens is the SNR used for simulation of Refsens and EIS spherical coverage, and is -1 dB;
+	SSB Ês/Iot is the minimum value required by the UE to perform measurements, and is -6 dB for intra-frequency measurements and -4 dB for inter-frequency measurements. The only contribution to Iot is the UE internal noise;
+	∆MBS,n is the UE multi-band relaxation factor value in dB specified in TS 38.101-2 [19] clause 6.2.1.
+The calculated Minimum SSB_RP value for the baseline of UE power class 3 in Band n260 is (-96.9+∆MBS,n) dBm/120kHz for intra-frequency measurements and is (-94.9+∆MBS,n) dBm/120kHz for inter-frequency measurements.
+The following methodology to define the Minimum SSB_RP level for power class X (PC_X) and operating band Y (Band_Y) is used:
+	
+For Intra-frequency: Minimum SSB_RP (PC_X, Band_Y) = -96.9 dBm/120kHz + EIS spherical coverage PC_X, Band_Y, 50MHz – EIS spherical coverage PC3, n260, 50MHz + Z PC_X – Z PC3 +∆MBS,n
+For Inter-frequency: Minimum SSB_RP (PC_X, Band_Y) = -94.9 dBm/120kHz + EIS spherical coverage PC_X, Band_Y, 50MHz – EIS spherical coverage PC3, n260, 50MHz + Z PC_X – Z PC3 +∆MBS,n
+B.2.1.4	Gain to SS-RSRP measurement point for FR1
+In FR1 conducted requirements are specified at the UE antenna connector, which is also the SS-RSRP measurement point.
+B.2.1.5	Gain to SS-RSRP measurement point for FR2
+B.2.1.5.1	Gain to SS-RSRP measurement point for Rx Beam Peak angle of arrival
+In clause 5.1.1 of TS 38.215 [4] SS-RSRP is defined to be measured based on the combined signal from antenna elements corresponding to a given receiver branch. The reference point for requirement parameters from the UE perspective is the input of the UE antenna array. The gain “G” relates the combined signal from antenna elements corresponding to a given receiver branch to the reference point for requirement parameters.
+The gain “G” affects absolute signal level values reported by the UE.
+
+Figure B.2.1.5.1-1: Gain and Reference point for requirement parameters
+The gain range for each power class is specified in Table B.2.1.5.1-1.
+Table B.2.1.5.1-1: UE gain G, Rx beam peak direction
+
+Gain range in spherical coverage directions may be lower than in Rx beam peak direction, according to the difference between the EIS spherical coverage value specified in TS 38.101-2 [19] clause 7.3.4 and the Reference sensitivity level specified in TS 38.101-2 [19] clause 7.3.2.
+B.2.1.5.2	Gain to SS-RSRP measurement point for different frequency
+In any specific direction, the UE gain G may be different depending on frequencies. The gain “Ginter” affects relative signal level values reported by the UE when measuring between different frequencies and is specified in Table B.2.1.5.2-1 for each power class.
+Table B.2.1.5.2-1: UE gain difference between inter-frequencies Ginter 
+
+B.2.1.5.3	Alignment of Rough beam to Rx beam Peak
+The definition of Rx Beam Peak in TS 38.101-2 [19] clause 7.3.2 is based on Throughput at Reference sensitivity power level, and assumes use of Fine beams. In many RRM scenarios the UE can use Rough beams, but the largest Rough beam gain direction may not be aligned to the Fine beam Peak direction.
+When the Rx Beam Peak is selected and defined based on Fine Beams, the rough beam gain in that direction may be lower than the largest rough beam gain in another direction within Spherical Coverage. The term “D” is the maximum allowed rough beam gain reduction, and is specified in Table B.2.1.5.3-1 for each power class.
+Table B.2.1.5.3-1: Rough Beam gain reduction “D” in Rx Beam Peak direction 
+
+B.2.2	Conditions for NR intra-frequency measurements
+This clause defines the following conditions for NR intra-frequency measurements and corresponding procedures performed based on SSBs: SSB_RP and SSB Ês/Iot, applicable for a corresponding operating band.
+The conditions are defined in Table B.2.2-1 for FR1 NR cells.
+The conditions are defined in Table B.2.2-2 for FR2 NR cells.
+Table B.2.2-1: Conditions for intra-frequency measurements in FR1
+
+Table B.2.2-2: Conditions for intra-frequency measurements in FR2
+
+Editor’s notes for Table B.2.2-2: 
+- The value of Y for power class 4 is FFS, where Y4 is the rough/fine beam gain difference in Rx beam peak direction for power class 4 
+- The value of Z for power class 4 is FFS, where Z4 is the rough/fine beam gain difference in spherical coverage directions for power class 4
+B.2.3	Conditions for NR inter-frequency measurements
+This clause defines the following conditions for NR inter-frequency measurements and corresponding procedures performed based on SSBs: SSB_RP and SSB Ês/Iot, applicable for a corresponding operating band.
+The conditions are defined in Table B.2.3-1 for FR1 NR cells.
+The conditions are defined in Table B.2.3-2 for FR2 NR cells.
+Table B.2.3-1: Conditions for inter-frequency measurements in FR1
+
+Table B.2.3-2: Conditions for inter-frequency measurements in FR2
+
+Editor’s notes for Table B.2.3-2: 
+- The value of Y for power class 4 is FFS, where Y4 is the rough/fine beam gain difference in Rx beam peak direction for power class 4 
+- The value of Z for power class 4 is FFS, where Z4 is the rough/fine beam gain difference in spherical coverage directions for power class 4
+B.2.4	Conditions for NR L1-RSRP reporting
+B.2.4.1	Conditions for SSB based L1-RSRP reporting
+This clause defines the following conditions for NR L1-RSRP measurement reporting and corresponding procedures performed based on SSBs: SSB_RP and SSB Ês/Iot, applicable for a corresponding operating band.
+The conditions are defined in Table B.2.4.1-1 for FR1 NR cells.
+The conditions are defined in Table B.2.4.1-2 for FR2 NR cells.
+Table B.2.4.1-1: Conditions for SSB based L1-RSRP measurements in FR1
+
+Table B.2.4.1-2: Conditions for SSB based L1-RSRP measurements in FR2
+
+Editor’s notes for Table B.2.4.1-2: 
+- The value of Y for power class 4 is FFS, where Y4 is the rough/fine beam gain difference in Rx beam peak direction for power class 4 
+- The value of Z for power class 4 is FFS, where Z4 is the rough/fine beam gain difference in spherical coverage directions for power class 4
+B.2.4.2	Conditions for CSI-RS based L1-RSRP reporting
+This clause defines the following conditions for NR L1-RSRP measurement reporting and corresponding procedures performed based on CSI-RS: CSI-RS_RP and CSI-RS Ês/Iot, applicable for a corresponding operating band.
+The conditions are defined in Table B.2.4.2-1 for FR1 NR cells.
+The conditions are defined in Table B.2.4.2-2 for FR2 NR cells.
+Table B.2.4.2-1: Conditions for CSI-RS based L1-RSRP measurements in FR1
+
+Table B.2.4.2-2: Conditions for CSI-RS based L1-RSRP measurements in FR2
+
+Editor’s notes for Table B.2.4.2-2: 
+- The value of Y for power class 4 is FFS, where Y4 is the rough/fine beam gain difference in Rx beam peak direction for power class 4 
+- The value of Z for power class 4 is FFS, where Z4 is the rough/fine beam gain difference in spherical coverage directions for power class 4
+B.2.5	Conditions for RRC connection release with redirection to NR
+This clause defines the following conditions for RRC connection release with redirection to NR: SSB_RP and SSB Ês/Iot, applicable for a corresponding operating band.
+The conditions are defined in Table B.2.5-1 for FR1 NR cells.
+The conditions are defined in Table B.2.5-2 for FR2 NR cells.
+Table B.2.5-1: Conditions for RRC connection release with redirection to NR in FR1
+
+Table B.2.5-2: Conditions for RRC connection release with redirection to NR in FR2
+
+Editor’s notes for Table B.2.5.2-2: 
+- The value of Y for power class 4 is FFS, where Y4 is the rough/fine beam gain difference in Rx beam peak direction for power class 4 
+- The value of Z for power class 4 is FFS, where Z4 is the rough/fine beam gain difference in spherical coverage directions for power class 4
+
+B.2.6	Void
+B.2.6.1	Void
+Table B.2.6.1-1: Void
+Table B.2.6.1-2: Void
+B.2.6.2	Void
+B.3	RRM Requirements Exceptions
+B.3.1	Introduction
+Annex B.3 covers exceptions for side conditions based on receiver sensitivity for CA, DC, and SUL.
+B.3.2	Receiver sensitivity relaxation for CA
+B.3.2.1	Receiver sensitivity relaxation for UE supporting CA in FR1
+For a UE supporting inter-band carrier aggregation configuration with uplink in NR band, if there is a relaxation of receiver sensitivity ΔRIB,c>0 dB as defined in clause 7.3A.3 of TS 38.101-1 [18], the relevant side conditions specifying received power levels (SSB_RP and Io) shall be increased by the amount Δ=ΔRIB,c defined for the corresponding downlink NR bands.
+For a UE supporting CA configuration in FR1, the requirement in this clause applies for both SC and CA operation.
+B.3.2.2	Receiver sensitivity relaxation for UE configured with CA in FR1
+B.3.2.2.1	Inter-band carrier aggregation
+For a UE configured with inter-band carrier aggregation with active uplink in NR band, if there is a relaxation of receiver sensitivity ΔRIB,c>0 dB as defined in clause 7.3A.3 of TS 38.101-1 [18], the relevant side conditions specifying received power levels (SSB_RP and Io) shall be increased by the amount Δ=ΔRIB,c defined for the corresponding downlink NR bands.
+If the relaxation Δ specified in this clause applies, then the relaxation specified in clause B.3.2.1 should not be applied.
+B.3.2.2.2	Reference sensitivity exceptions due to UL harmonic interference for CA
+In this clause, requirements exceptions are described for the UE configured with a band in FR1 when it is impacted by UL harmonic interference from another band in FR1 of the same CA configuration.
+A relevant side condition (SSB_RP and Io) in a requirement shall be increased by the amount Δ=L2-L1, where L1 is the reference sensitivity level specified in clause 7.3.2 of TS 38.101-1 [18], and L2 is the reference sensitivity level based on the requirements in clause 7.3A.4 of TS 38.101-1 [18], when the following conditions are fulfilled,
+-	corresponding downlink component carriers on different NR bands are configured with CA and active,
+-	the upling is configured in the NR low operating band and is active,
+-	the uplink configuration is as specified in clause 7.3A.4 of TS 38.101-1 [18], and
+-	the exception requirements specified in clause 7.3A.4 of TS 38.101-1 [18] apply.
+If the relaxation Δ specified in this clause applies, then the relaxation specified in clause B.3.2.1 should not be applied.
+B.3.2.2.3	Reference sensitivity exceptions due to intermodulation interference due to 2UL CA
+In this clause, requirements exceptions are described for the UE with an inter-band carrier aggregation with uplink assigned to two NR bands.
+A relevant side condition (SSB_RP and Io) in a requirement shall be increased by the amount Δ=L2-L1, where L1 is the reference sensitivity level specified in clause 7.3.2 of TS 38.101-1 [18], and L2 is the reference sensitivity level based on the requirements in clause 7.3A.5 of TS 38.101-1 [18], when the following conditions are fulfilled,
+-	corresponding downlink component carriers on different bands are configured with CA and active,
+-	uplinks are assigned to two NR bands,
+-	the exception requirements specified in clause 7.3A.5 of TS 38.101-1 [18] apply.
+If the relaxation Δ specified in this clause applies, then the relaxation specified in clause B.3.2.1 should not be applied.
+B.3.2.3	Receiver sensitivity relaxation for UE supporting CA in FR2
+B.3.2.4	Receiver sensitivity relaxation for UE configured with CA in FR2
+B.3.2.4.1	Intra-band contiguous carrier aggregation
+For a UE configured with intra-band contiguous carrier aggregation in NR band in FR2, if there is a relaxation of receiver sensitivity ΔRIB>0 dB as defined in clause 7.3A.2.1 of TS 38.101-2 [19] depending on the aggregated channel bandwidth, the relevant side conditions specifying received power levels (SSB_RP and Io) shall be increased by the amount Δ=ΔRIB defined for the corresponding downlink NR bands.
+B.3.2.4.2	Intra-band non-contiguous carrier aggregation
+For a UE configured with intra-band non-contiguous carrier aggregation in NR band in FR2, if there is a relaxation of receiver sensitivity ΔRIB>0 dB as defined in clause 7.3A.2.1 of TS 38.101-2 [19] depending on the aggregated channel bandwidth, the relevant side conditions specifying received power levels (SSB_RP and Io) shall be increased by the amount Δ=ΔRIB defined for the corresponding downlink NR bands.
+B.3.3	Receiver sensitivity relaxation for DC
+B.3.3.1	Receiver sensitivity relaxation for EN-DC
+Editor’s note: TBD
+B.3.3.2	Receiver sensitivity relaxation for NE-DC
+Editor’s note: TBD
+B.3.4	Receiver sensitivity relaxation for SUL
+B.3.4.1	Receiver sensitivity relaxation for UE supporting SUL in FR1
+For a UE supporting a SUL configuration in FR1, if there is a relaxation of receiver sensitivity ΔRIB,c>0 dB as defined in clause 7.3C.3 of TS 38.101-1 [18], the relevant side conditions specifying received power levels (SSB_RP and Io) shall be increased by the amount Δ=ΔRIB,c defined for the corresponding downlink NR bands.
+For a UE supporting a SUL configuration in FR1, the requirement in this clause applies for both SC and SUL operation.
+B.3.4.2	Receiver sensitivity relaxation for UE configured with SUL in FR1
+B.3.4.2.1	Reference sensitivity exceptions due to UL harmonic interference for SUL
+In this clause, requirements exceptions are described for the UE with a band in FR1 when it is impacted by UL harmonic interference from another band in FR1 of the same SUL configuration.
+A relevant side condition (SSB_RP and Io) in a requirement shall be increased by the amount Δ=L2-L1, where L1 is the reference sensitivity level specified in clause 7.3.2 of TS 38.101-1 [18], and L2 is the reference sensitivity level based on the requirements in clause 7.3C.2 of TS 38.101-1 [18], when the following conditions are fulfilled,
+-	a downlink component carrier is configured in NR band and is active,
+-	the upling is configured in the NR low operating band and is active,
+-	the uplink configuration is as specified in clause 7.3C.2 of TS 38.101-1 [18], and
+-	the exception requirements specified in clause 7.3C.2 of TS 38.101-1 [18] apply.
+If the relaxation Δ specified in this clause applies, then the relaxation specified in clause B.3.4.1 should not be applied.
+
+Annex C (informative):
+Change history
+

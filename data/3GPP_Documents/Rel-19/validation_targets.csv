@@ -1,0 +1,9 @@
+telecomts_fault,candidate_terms,primary_spec_family
+Antenna Failure,"antenna failure;antenna fault;antenna degradation;antenna malfunction;antenna system",38-series
+Buffer Overflow,"buffer overflow;buffer overrun;buffer exhaustion;queue overflow;buffer full",29/32-series
+Co-Channel Interference,"co-channel interference;co channel interference;inter-cell interference;interference",38-series
+Faulty Handover Algorithm,"handover failure;handover failure rate;handover procedure;handover error;handover",38/23-series
+Faulty RF Filters,"RF filter;RF filters;filter failure;filter fault;blocking;out-of-band blocking;receiver blocking",38-series
+High Network Congestion,"congestion;network congestion;traffic congestion;overload;high traffic load;resource congestion",23/28-series
+Resource Allocation Bugs,"resource allocation;resource assignment;resource allocation failure;resource shortage;resource exhaustion;radio resource management",38-series
+Doppler,"Doppler;Doppler shift;Doppler frequency;frequency shift;frequency offset;fading",38-series

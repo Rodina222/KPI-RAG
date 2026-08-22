@@ -1,0 +1,345 @@
+﻿
+
+document         : 38141-1-j00.txt
+clause_candidate : 6.6.4.5.3
+line             : 173
+evidence         : 8] 6.5.3.1 Definition and applicability 82
+                   [P149] 6.5.3.2 Minimum Requirement 82
+                   [P150] 6.5.3.3 Test purpose 83
+                   [P151] 6.5.3.4 Method of test 83
+                   [P152] 6.5.3.4.1 Initial conditions 83
+                   [P153] 6.5.3.4.2 Procedure 83
+                   [P154] 6.5.3.5 Test requirements 84
+                   [P155] 6.5.4 Time alignment error 86
+                   [P156] 6.5.4.1 Definition and applicability 86
+                   [P157] 6.5.4.2 Minimum requirement 86
+                   [P158] 6.5.4.3 Test purpose 86
+                   [P159] 6.5.4.4 Method of test 86
+                   [P160] 6.5.4.4.1 Initial conditions 86
+                   [P161] 6.5.4.4.2 Procedure 86
+                   [P162] 6.5.4.5 Test requirement 87
+                   [P163] 6.6 Unwanted emissions 87
+                   [P164] 6.6.1 General 87
+                   [P165] 6.6.2 Occupied bandwidth 88
+                   [P166] 6.6.2.1 Definition and applicability 88
+                   [P167] 6.6.2.2 Minimum Requirements 88
+                   [P168] 6.6.2.3 Test purpose 88
+                   [P169] 6.6.2.4 Method of test 89
+                   [P170] 6.6.2.4.1 Initial conditions 89
+                   [P171] 6.6.2.4.2 Procedure 89
+                   [P172] 6.6.2.5 Test requirements 90
+                   [P173] 6.6.3 Adjacent Channel Leakage Power Ratio (ACLR) 90
+                   [P174] 6.6.3.1 Definition and applicability 90
+                   [P175] 6.6.3.2 Minimum requirement 90
+                   [P176] 6.6.3.3 Test purpose 90
+                   [P177] 6.6.3.4 Method of test 90
+                   [P178] 6.6.3.4.1 Initial conditions 90
+                   [P179] 6.6.3.4.2 Procedure 91
+                   [P180] 6.6.3.5 Test requirements 91
+                   [P181] 6.6.3.5.1 General requirements 91
+                   [P182] 6.6.3.5.2 Limits and basic limits 91
+                   [P183] 6.6.3.5.3 BS type 1-C 95
+                   [P184] 6.6.3.5.4 BS type 1-H 95
+                   [P185] 6.6.4 Operating band unwanted emissions 96
+                   [P186] 6.6.4.1 Definition and applicability 96
+                   [P187] 6.6.4.2 Minimum requirement 97
+                   [P188] 6.6.4.3 Test purpose 97
+                   [P189] 6.6.4.4 Method of test 98
+                   [P190] 6.6.4.4.1 Initial conditions 98
+                   [P191] 6.6.4.4.2 Procedure 98
+                   [P192] 6.6.4.5 Test requirements 99
+                   [P193] 6.6.4.5.1 General requirements 99
+                   [P194] 6.6.4.5.2 Basic limits for Wide Area BS (Category A) 99
+                   [P195] 6.6.4.5.3 Basic limits for Wide Area BS (Category B
+
+document         : 38141-1-j00.txt
+clause_candidate : D.4.4
+line             : 694
+evidence         : [P678] B.4 Vibration 322
+                   [P679] B.5 Power supply 322
+                   [P680] B.6 Measurement of test environments 322
+                   [P681] Annex C (informative): Test tolerances and derivation of test requirements 323
+                   [P682] C.1 Measurement of transmitter 323
+                   [P683] C.2 Measurement of receiver 325
+                   [P684] C.3 Measurement of performance requirements 326
+                   [P685] Annex D (informative): Measurement system set-up 329
+                   [P686] D.1 BS type 1-C transmitter 329
+                   [P687] D.1.1 Base station output power, output power dynamics, transmitter ON/OFF power, frequency error, EVM, unwanted emissions for BS 
+                   type 1-C 329
+                   [P688] D.1.2 Transmitter intermodulation for BS type 1-C 329
+                   [P689] D.1.3 Time alignment error for BS type 1-C 330
+                   [P690] D.2 BS type 1-C receiver 330
+                   [P691] D.2.1 Reference sensitivity level for BS type 1-C 330
+                   [P692] D.2.2 Dynamic range for BS type 1-C 331
+                   [P693] D.2.3 In-channel selectivity for BS type 1-C 331
+                   [P694] D.2.4 Adjacent Channel Selectivity (ACS) and narrowband blocking for BS type 1-C 332
+                   [P695] D.2.5 Blocking characteristics for BS type 1-C 332
+                   [P696] D.2.6 Receiver spurious emission for BS type 1-C 333
+                   [P697] D.2.7 Intermodulation characteristics for BS type 1-C 333
+                   [P698] D.3 BS type 1-H transmitter 334
+                   [P699] D.3.1 Base station output power, output power dynamics, transmitter ON/OFF power, frequency error, EVM, unwanted emissions for BS 
+                   type 1-H 334
+                   [P700] D.3.2 Transmitter intermodulation for BS type 1-H 335
+                   [P701] D.3.3 Transmitter spurious emissions for BS type 1-H 335
+                   [P702] D.3.4 Time alignment error for BS type 1-H 337
+                   [P703] D.4 BS type 1-H receiver 337
+                   [P704] D.4.1 Reference sensitivity level for BS type 1-H 337
+                   [P705] D.4.2 Receiver dynamic range for BS type 1-H 338
+                   [P706] D.4.3 Receiver adjacent channel selectivity and narrowband blocking for BS type 1-H 338
+                   [P707] D.4.4 Receiver spurious emissio
+
+document         : 38141-1-j00.txt
+clause_candidate : D.6.1
+line             : 706
+evidence         : range for BS type 1-C 331
+                   [P693] D.2.3 In-channel selectivity for BS type 1-C 331
+                   [P694] D.2.4 Adjacent Channel Selectivity (ACS) and narrowband blocking for BS type 1-C 332
+                   [P695] D.2.5 Blocking characteristics for BS type 1-C 332
+                   [P696] D.2.6 Receiver spurious emission for BS type 1-C 333
+                   [P697] D.2.7 Intermodulation characteristics for BS type 1-C 333
+                   [P698] D.3 BS type 1-H transmitter 334
+                   [P699] D.3.1 Base station output power, output power dynamics, transmitter ON/OFF power, frequency error, EVM, unwanted emissions for BS 
+                   type 1-H 334
+                   [P700] D.3.2 Transmitter intermodulation for BS type 1-H 335
+                   [P701] D.3.3 Transmitter spurious emissions for BS type 1-H 335
+                   [P702] D.3.4 Time alignment error for BS type 1-H 337
+                   [P703] D.4 BS type 1-H receiver 337
+                   [P704] D.4.1 Reference sensitivity level for BS type 1-H 337
+                   [P705] D.4.2 Receiver dynamic range for BS type 1-H 338
+                   [P706] D.4.3 Receiver adjacent channel selectivity and narrowband blocking for BS type 1-H 338
+                   [P707] D.4.4 Receiver spurious emissions 338
+                   [P708] D.4.5 Receiver In-channel selectivity for BS type 1-H 340
+                   [P709] D.4.6 Receiver intermodulation for BS type 1-H 341
+                   [P710] D.5 BS type 1-C performance requirements 341
+                   [P711] D.5.1 Performance requirements for PUSCH, single user PUCCH, PRACH on single antenna port in multipath fading conditions and for 
+                   high speed condition 341
+                   [P712] D.5.2 Performance requirements for PUSCH transmission on two antenna ports in multipath fading conditions 342
+                   [P713] D.5.2A Performance requirements for PUSCH transmission on four antenna ports in multipath fading conditions 342
+                   [P714] D.5.3 Performance requirements for PUSCH and PRACH in static conditions 342
+                   [P715] D.5.4 Performance requirements for UL timing adjustment 343
+                   [P716] D.6 BS type 1-H performance requirements 343
+                   [P717] D.6.1 Performance
+
+document         : 38141-1-j00.txt
+clause_candidate : 21.905
+line             : 963
+evidence         : er per TAB connector
+                   [P954] Prated,c,AC The rated carrier output power per antenna connector
+                   [P955] Prated,c,sys The sum of Prated,c,TABC for all TAB connectors for a single carrier
+                   [P956] Prated,c,TABC The rated carrier output power per TAB connector
+                   [P957] Prated,t,AC The rated total output power declared at the antenna connector
+                   [P958] Prated,t,TABC The rated total output power declared at TAB connector
+                   [P959] PREFSENS Conducted Reference Sensitivity power level
+                   [P960] SSREF SS block reference frequency position
+                   [P961] Wgap Sub-block gap or Inter RF Bandwidth gap size
+                   [P963] 3.3 Abbreviations
+                   [P964] For the purposes of the present document, the abbreviations given in TR21.905[1] and the following apply. An abbreviation defined in 
+                   the present document takes precedence over the definition of the same abbreviation, if any, in TR21.905[1].
+                   [P965] AAS Active Antenna System
+                   [P966] ACLR Adjacent Channel Leakage Ratio
+                   [P967] ACS Adjacent Channel Selectivity
+                   [P968] ATG Air to Ground
+                   [P969] AWGN Additive White Gaussian Noise
+                   [P970] BS Base Station
+                   [P971] BW Bandwidth
+                   [P972] CA Carrier Aggregation
+                   [P973] CACLR Cumulative ACLR
+                   [P974] CP-OFDM Cyclic Prefix-OFDM
+                   [P975] CW Continuous Wave
+                   [P976] DFT-s-OFDM Discrete Fourier Transform-spread-OFDM
+                   [P977] DM-RS Demodulation Reference Signal
+                   [P978] E-UTRA Evolved UTRA
+                   [P979] EVM Error Vector Magnitude
+                   [P980] FDD Frequency Division Duplex
+                   [P981] FR Frequency Range
+                   [P982] GSCN Global Synchronization Channel Number
+                   [P983] GSM Global System for Mobile communications
+                   [P984] HAPS High Altitude Platform Station
+                   [P985] ITU-R Radiocommunication Sector of the International Telecommunication Union
+                   [P986] ICS In-Channel Selectivity
+                   [P987] LA Local Area
+                   [P988] LNA Low Noise Amplifier
+                   [P989] MR Medium Range
+                   [P990] NB-IoT Narrowband – Internet of Things
+                   [P991] NR
+
+document         : 38141-1-j00.txt
+clause_candidate : 21.905
+line             : 964
+evidence         : e rated carrier output power per antenna connector
+                   [P955] Prated,c,sys The sum of Prated,c,TABC for all TAB connectors for a single carrier
+                   [P956] Prated,c,TABC The rated carrier output power per TAB connector
+                   [P957] Prated,t,AC The rated total output power declared at the antenna connector
+                   [P958] Prated,t,TABC The rated total output power declared at TAB connector
+                   [P959] PREFSENS Conducted Reference Sensitivity power level
+                   [P960] SSREF SS block reference frequency position
+                   [P961] Wgap Sub-block gap or Inter RF Bandwidth gap size
+                   [P963] 3.3 Abbreviations
+                   [P964] For the purposes of the present document, the abbreviations given in TR21.905[1] and the following apply. An abbreviation defined in 
+                   the present document takes precedence over the definition of the same abbreviation, if any, in TR21.905[1].
+                   [P965] AAS Active Antenna System
+                   [P966] ACLR Adjacent Channel Leakage Ratio
+                   [P967] ACS Adjacent Channel Selectivity
+                   [P968] ATG Air to Ground
+                   [P969] AWGN Additive White Gaussian Noise
+                   [P970] BS Base Station
+                   [P971] BW Bandwidth
+                   [P972] CA Carrier Aggregation
+                   [P973] CACLR Cumulative ACLR
+                   [P974] CP-OFDM Cyclic Prefix-OFDM
+                   [P975] CW Continuous Wave
+                   [P976] DFT-s-OFDM Discrete Fourier Transform-spread-OFDM
+                   [P977] DM-RS Demodulation Reference Signal
+                   [P978] E-UTRA Evolved UTRA
+                   [P979] EVM Error Vector Magnitude
+                   [P980] FDD Frequency Division Duplex
+                   [P981] FR Frequency Range
+                   [P982] GSCN Global Synchronization Channel Number
+                   [P983] GSM Global System for Mobile communications
+                   [P984] HAPS High Altitude Platform Station
+                   [P985] ITU-R Radiocommunication Sector of the International Telecommunication Union
+                   [P986] ICS In-Channel Selectivity
+                   [P987] LA Local Area
+                   [P988] LNA Low Noise Amplifier
+                   [P989] MR Medium Range
+                   [P990] NB-IoT Narrowband – Internet of Things
+                   [P991] NR New Radio
+                   [P992] NR-ARFCN NR Absolute Rad
+
+document         : 38141-1-j00.txt
+clause_candidate : 6.6.1
+line             : 1746
+evidence         : with or without MIMO, TAE shall not exceed 3.025 µs.
+                   [P1795] The time alignment error requirements for NB-IoT are specified in TS 36.141 [24] clause 6.5.3.5.
+                   [P1796] 6.6 Unwanted emissions
+                   [P1797] 6.6.1 General
+                   [P1798] Unwanted emissions consist of out-of-band emissions and spurious emissions according to ITU definitions in recommendation ITU-R 
+                   SM.329 [5]. In ITU terminology, out of band emissions are unwanted emissions immediately outside the channel bandwidth resulting from the 
+                   modulation process and non-linearity in the transmitter but excluding spurious emissions. Spurious emissions are emissions which are caused 
+                   by unwanted transmitter effects such as harmonics emission, parasitic emission, intermodulation products and frequency conversion products, 
+                   but exclude out of band emissions.
+                   [P1799] The out-of-band emissions requirement for the BS transmitter is specified both in terms of Adjacent Channel Leakage power Ratio 
+                   (ACLR) and operating band unwanted emissions (OBUE).
+                   [P1800] The maximum offset of the operating band unwanted emissions mask from the operating band edge is ΔfOBUE. The operating band 
+                   unwanted emissions define all unwanted emissions in each supported downlink operating band plus the frequency ranges ΔfOBUE above and 
+                   ΔfOBUE below each band. Unwanted emissions outside of this frequency range are limited by a spurious emissions requirement.
+                   [P1801] The values of ΔfOBUE are defined in table 6.6.1-1 for the NR operating bands.
+                   [P1802] Table 6.6.1-1: Maximum offset of OBUE outside the downlink operating band
+                   [P1804] For band n46, n96 and n102, the values of ΔfOBUE are defined in table 6.6.1-1a.
+                   [P1805] Table 6.6.1-1a: Maximum offset of OBUE outside the downlink operating band
+                   [P1807] For band n104, the values of ΔfOBUE are defined in table 6.6.1-1b.
+                   [P1809] Table 6.6.1-1b
+
+document         : 38141-1-j00.txt
+clause_candidate : D.3.1
+line             : 3943
+evidence         : [P4404] Figure D.1.1-1: Measuring system set-up for BS type 1-C output power, output power dynamics, frequency error, EVM, unwanted 
+                   emissions
+                   [P4405] D.1.2 Transmitter intermodulation for BS type 1-C
+                   [P4408] Figure D.1.2-1: Measuring system set-up for BS type 1-C transmitter intermodulation
+                   [P4409] D.1.3 Time alignment error for BS type 1-C
+                   [P4411] Figure D.1.3-1: Measuring system set-up for BS type 1-C test of time alignment error
+                   [P4412] D.2 BS type 1-C receiver
+                   [P4413] D.2.1 Reference sensitivity level for BS type 1-C
+                   [P4415] Figure D.2.1-1: Measuring system set-up for BS type 1-C reference sensitivity level test
+                   [P4416] D.2.2 Dynamic range for BS type 1-C
+                   [P4418] Figure D.2.2-1: Measuring system set-up for BS type 1-C dynamic range
+                   [P4419] D.2.3 In-channel selectivity for BS type 1-C
+                   [P4421] Figure D.2.3-1: Measuring system Set-up for BS type 1-C in-channel selectivity
+                   [P4422] D.2.4 Adjacent Channel Selectivity (ACS) and narrowband blocking for BS type 1-C
+                   [P4424] Figure D.2.4-1: Measuring system set-up for BS type 1-C adjacent channel selectivity and narrowband blocking
+                   [P4425] D.2.5 Blocking characteristics for BS type 1-C
+                   [P4427] Figure D.2.5-1: Measuring system set-up for BS type 1-C blocking characteristics
+                   [P4428] D.2.6 Receiver spurious emission for BS type 1-C
+                   [P4430] Figure D.2.6-1: Measuring system set-up for BS type 1-C receiver spurious emission
+                   [P4431] D.2.7 Intermodulation characteristics for BS type 1-C
+                   [P4433] Figure D.2.7-1: Measuring system set-up for BS type 1-C intermodulation characteristics
+                   [P4434] D.3 BS type 1-H transmitter
+                   [P4435] D.3.1 Base station output power, output power dynamics, transmitter ON/OFF power, frequency error, EVM, unwanted emissions for BS 
+                   type 1-H
+                   [P4436] TAB connectors may be connected to the measurement equipment singularly and tested
+
+document         : 38141-1-j00.txt
+clause_candidate : D.3.1
+line             : 3944
+evidence         : ns
+                   [P4405] D.1.2 Transmitter intermodulation for BS type 1-C
+                   [P4408] Figure D.1.2-1: Measuring system set-up for BS type 1-C transmitter intermodulation
+                   [P4409] D.1.3 Time alignment error for BS type 1-C
+                   [P4411] Figure D.1.3-1: Measuring system set-up for BS type 1-C test of time alignment error
+                   [P4412] D.2 BS type 1-C receiver
+                   [P4413] D.2.1 Reference sensitivity level for BS type 1-C
+                   [P4415] Figure D.2.1-1: Measuring system set-up for BS type 1-C reference sensitivity level test
+                   [P4416] D.2.2 Dynamic range for BS type 1-C
+                   [P4418] Figure D.2.2-1: Measuring system set-up for BS type 1-C dynamic range
+                   [P4419] D.2.3 In-channel selectivity for BS type 1-C
+                   [P4421] Figure D.2.3-1: Measuring system Set-up for BS type 1-C in-channel selectivity
+                   [P4422] D.2.4 Adjacent Channel Selectivity (ACS) and narrowband blocking for BS type 1-C
+                   [P4424] Figure D.2.4-1: Measuring system set-up for BS type 1-C adjacent channel selectivity and narrowband blocking
+                   [P4425] D.2.5 Blocking characteristics for BS type 1-C
+                   [P4427] Figure D.2.5-1: Measuring system set-up for BS type 1-C blocking characteristics
+                   [P4428] D.2.6 Receiver spurious emission for BS type 1-C
+                   [P4430] Figure D.2.6-1: Measuring system set-up for BS type 1-C receiver spurious emission
+                   [P4431] D.2.7 Intermodulation characteristics for BS type 1-C
+                   [P4433] Figure D.2.7-1: Measuring system set-up for BS type 1-C intermodulation characteristics
+                   [P4434] D.3 BS type 1-H transmitter
+                   [P4435] D.3.1 Base station output power, output power dynamics, transmitter ON/OFF power, frequency error, EVM, unwanted emissions for BS 
+                   type 1-H
+                   [P4436] TAB connectors may be connected to the measurement equipment singularly and tested one at a time (figure D.3.1-1), or may be tested 
+                   simultaneously in groups (figure D.3.1-2) where the group size may range from two to all t
+
+document         : 38141-1-j00.txt
+clause_candidate : D.4.5
+line             : 3971
+evidence         : onnectors which are subject to transmitter spurious emissions test.
+                   [P4447] In all cases the measurement is per TAB connector but the measurement may be done in parallel.
+                   [P4449] Figure D.3.3-1: Measuring system set-up for transmitter spurious emissions for a single TAB connector
+                   [P4451] Figure D.3.3-2: Measuring system set-up for transmitter spurious emissions for multiple TAB connectors in parallel test
+                   [P4452] D.3.4 Time alignment error for BS type 1-H
+                   [P4454] Figure D.3.4-1: Measuring system set-up for BS type 1-H test of time alignment error
+                   [P4455] D.4 BS type 1-H receiver
+                   [P4456] D.4.1 Reference sensitivity level for BS type 1-H
+                   [P4458] Figure D.4.1-1: Measuring system set-up for BS type 1-H reference sensitivity level test
+                   [P4459] D.4.2 Receiver dynamic range for BS type 1-H
+                   [P4461] Figure D.4.2-1: Measuring system set-up for BS type 1-H dynamic range test
+                   [P4462] D.4.3 Receiver adjacent channel selectivity and narrowband blocking for BS type 1-H
+                   [P4464] Figure D.4.3-1: Measuring system set-up for BS type 1-H adjacent channel selectivity
+                   and narrowband blocking test
+                   [P4465] D.4.4 Receiver spurious emissions
+                   [P4466] TAB connector(s) may be connected to the measurement equipment singularly and tested one at a time (figure D.4.2-1), or may be 
+                   tested simultaneously in groups (figure D.4.2-2) where the group size may range from 2 to all the TAB connectors.
+                   [P4467] In all cases the measurement is per TAB connector but the measurement may be done in parallel.
+                   [P4469] Figure D.4.4-1: Measuring system set-up for BS type 1-H receiver spurious emissions for a single TAB connector
+                   [P4471] Figure D.4.4-2: Measuring system set-up for BS type 1-H receiver spurious emissions for multiple TAB connectors
+                   [P4472] D.4.5 Receiver In-channel selectivity for BS type 1-H
+                   [P4474] Figure D.4.5-1: Measur
+
+document         : 38141-1-j00.txt
+clause_candidate : D.4.6
+line             : 3972
+evidence         : measurement may be done in parallel.
+                   [P4449] Figure D.3.3-1: Measuring system set-up for transmitter spurious emissions for a single TAB connector
+                   [P4451] Figure D.3.3-2: Measuring system set-up for transmitter spurious emissions for multiple TAB connectors in parallel test
+                   [P4452] D.3.4 Time alignment error for BS type 1-H
+                   [P4454] Figure D.3.4-1: Measuring system set-up for BS type 1-H test of time alignment error
+                   [P4455] D.4 BS type 1-H receiver
+                   [P4456] D.4.1 Reference sensitivity level for BS type 1-H
+                   [P4458] Figure D.4.1-1: Measuring system set-up for BS type 1-H reference sensitivity level test
+                   [P4459] D.4.2 Receiver dynamic range for BS type 1-H
+                   [P4461] Figure D.4.2-1: Measuring system set-up for BS type 1-H dynamic range test
+                   [P4462] D.4.3 Receiver adjacent channel selectivity and narrowband blocking for BS type 1-H
+                   [P4464] Figure D.4.3-1: Measuring system set-up for BS type 1-H adjacent channel selectivity
+                   and narrowband blocking test
+                   [P4465] D.4.4 Receiver spurious emissions
+                   [P4466] TAB connector(s) may be connected to the measurement equipment singularly and tested one at a time (figure D.4.2-1), or may be 
+                   tested simultaneously in groups (figure D.4.2-2) where the group size may range from 2 to all the TAB connectors.
+                   [P4467] In all cases the measurement is per TAB connector but the measurement may be done in parallel.
+                   [P4469] Figure D.4.4-1: Measuring system set-up for BS type 1-H receiver spurious emissions for a single TAB connector
+                   [P4471] Figure D.4.4-2: Measuring system set-up for BS type 1-H receiver spurious emissions for multiple TAB connectors
+                   [P4472] D.4.5 Receiver In-channel selectivity for BS type 1-H
+                   [P4474] Figure D.4.5-1: Measuring system set-up for BS type 1-H in-channel selectivity test
+                   [P4475] D.4.6 Receiver intermodulation for BS type 1-H
+                   [P4477] Figure D
+
+
+

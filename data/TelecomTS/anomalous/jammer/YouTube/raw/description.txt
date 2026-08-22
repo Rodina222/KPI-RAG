@@ -1,0 +1,4 @@
+User is streaming youtube.
+User is static at zone 1.
+There is a jammer.
+The network is not congested.

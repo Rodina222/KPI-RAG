@@ -1,0 +1,4 @@
+User is watching a twitch stream.
+User is static at zone 3.
+There are no jammers.
+The network is not congested.

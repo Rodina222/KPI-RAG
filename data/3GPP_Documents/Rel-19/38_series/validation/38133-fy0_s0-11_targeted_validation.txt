@@ -1,0 +1,1994 @@
+================================================================================
+3GPP TARGETED VALIDATION REPORT
+================================================================================
+
+Source: data\3GPP_Documents\Rel-19\38_series\38133-fy0_s0-11.txt
+Characters: 432,890
+
+
+================================================================================
+Antenna Failure
+================================================================================
+
+--------------------------------------------------------------------------------
+Result 1
+Search term: antenna
+Approximate line: 82
+
+Cell Group: As defined in TS 38.331 [2].
+Serving Cell: As defined in TS 38.331 [2].
+SMTC: An SSB-based measurement timing configuration configured by SSB-MeasurementTimingConfiguration as specified in TS 38.331 [2].
+Special Cell: As defined in TS 38.331 [2].
+SSB: SS/PBCH block as defined in clause 7.8.3 of TS 38.211 [6].
+Timing Advance Group: As defined in TS 38.331 [2].
+3.2	Symbols
+For the purposes of the present document, the following symbols apply:
+BWChannel	Channel bandwidth, defined in TS 38.101-1, 38.101-2 and 38.101-3 subclause 3.2
+Ês	Received energy per RE (power normalized to the subcarrier spacing) during the useful part of the symbol, i.e. excluding the cyclic prefix, at the UE antenna connector or radiated interface boundary
+FC	RF reference frequency on the channel raster, given in table 5.4.2.2-1 in TS 38.101-1 and 38.101-2
+FC,low	The Fc of the lowest carrier, expressed in MHz
+Io	The total received power density, including signal and interference, as measured at the UE antenna connector or radiated interface boundary.
+Ioc	The power spectral density (integrated in a noise bandwidth equal to the chip rate and normalized to the chip rate) of a band limited noise source (simulating interference from cells, which are not defined in a test procedure) as measured at the UE antenna connector or radiated interface boundary.
+Iot	The received power spectral density of the total no
+
+--------------------------------------------------------------------------------
+Result 2
+Search term: antenna
+Approximate line: 85
+
+7.8.3 of TS 38.211 [6].
+Timing Advance Group: As defined in TS 38.331 [2].
+3.2	Symbols
+For the purposes of the present document, the following symbols apply:
+BWChannel	Channel bandwidth, defined in TS 38.101-1, 38.101-2 and 38.101-3 subclause 3.2
+Ês	Received energy per RE (power normalized to the subcarrier spacing) during the useful part of the symbol, i.e. excluding the cyclic prefix, at the UE antenna connector or radiated interface boundary
+FC	RF reference frequency on the channel raster, given in table 5.4.2.2-1 in TS 38.101-1 and 38.101-2
+FC,low	The Fc of the lowest carrier, expressed in MHz
+Io	The total received power density, including signal and interference, as measured at the UE antenna connector or radiated interface boundary.
+Ioc	The power spectral density (integrated in a noise bandwidth equal to the chip rate and normalized to the chip rate) of a band limited noise source (simulating interference from cells, which are not defined in a test procedure) as measured at the UE antenna connector or radiated interface boundary.
+Iot	The received power spectral density of the total noise and interference for a certain RE (power integrated over the RE and normalized to the subcarrier spacing) as measured at the UE antenna connector or radiated interface boundary
+	The power spectral density of a white noise source (average power per RE normalised to the subcarrier spacing), simul
+
+--------------------------------------------------------------------------------
+Result 3
+Search term: antenna
+Approximate line: 86
+
+arrier spacing) during the useful part of the symbol, i.e. excluding the cyclic prefix, at the UE antenna connector or radiated interface boundary
+FC	RF reference frequency on the channel raster, given in table 5.4.2.2-1 in TS 38.101-1 and 38.101-2
+FC,low	The Fc of the lowest carrier, expressed in MHz
+Io	The total received power density, including signal and interference, as measured at the UE antenna connector or radiated interface boundary.
+Ioc	The power spectral density (integrated in a noise bandwidth equal to the chip rate and normalized to the chip rate) of a band limited noise source (simulating interference from cells, which are not defined in a test procedure) as measured at the UE antenna connector or radiated interface boundary.
+Iot	The received power spectral density of the total noise and interference for a certain RE (power integrated over the RE and normalized to the subcarrier spacing) as measured at the UE antenna connector or radiated interface boundary
+	The power spectral density of a white noise source (average power per RE normalised to the subcarrier spacing), simulating interference from cells that are not defined in a test procedure, as measured at the UE antenna connector or radiated interface boundary
+	Physical Resource Block number as defined in clause 3.2 in TS 38.211.
+	Timing offset between uplink and downlink radio frames at the UE, as defined in clause 4
+
+--------------------------------------------------------------------------------
+Result 4
+Search term: antenna
+Approximate line: 87
+
+nd 38.101-2
+FC,low	The Fc of the lowest carrier, expressed in MHz
+Io	The total received power density, including signal and interference, as measured at the UE antenna connector or radiated interface boundary.
+Ioc	The power spectral density (integrated in a noise bandwidth equal to the chip rate and normalized to the chip rate) of a band limited noise source (simulating interference from cells, which are not defined in a test procedure) as measured at the UE antenna connector or radiated interface boundary.
+Iot	The received power spectral density of the total noise and interference for a certain RE (power integrated over the RE and normalized to the subcarrier spacing) as measured at the UE antenna connector or radiated interface boundary
+	The power spectral density of a white noise source (average power per RE normalised to the subcarrier spacing), simulating interference from cells that are not defined in a test procedure, as measured at the UE antenna connector or radiated interface boundary
+	Physical Resource Block number as defined in clause 3.2 in TS 38.211.
+	Timing offset between uplink and downlink radio frames at the UE, as defined in clause 4.2 in TS 38.213.
+	Fixed timing advance offset, as defined in clause 7.1.2 in TS 38.133.
+	Configured UE transmitted power as defined in clause 6.2.4 in TS 38.101-1, 38-101-2 and 38.101-3.
+PCMAX,c	Configured UE transmitted power on a servi
+
+--------------------------------------------------------------------------------
+Result 5
+Search term: antenna
+Approximate line: 88
+
+se bandwidth equal to the chip rate and normalized to the chip rate) of a band limited noise source (simulating interference from cells, which are not defined in a test procedure) as measured at the UE antenna connector or radiated interface boundary.
+Iot	The received power spectral density of the total noise and interference for a certain RE (power integrated over the RE and normalized to the subcarrier spacing) as measured at the UE antenna connector or radiated interface boundary
+	The power spectral density of a white noise source (average power per RE normalised to the subcarrier spacing), simulating interference from cells that are not defined in a test procedure, as measured at the UE antenna connector or radiated interface boundary
+	Physical Resource Block number as defined in clause 3.2 in TS 38.211.
+	Timing offset between uplink and downlink radio frames at the UE, as defined in clause 4.2 in TS 38.213.
+	Fixed timing advance offset, as defined in clause 7.1.2 in TS 38.133.
+	Configured UE transmitted power as defined in clause 6.2.4 in TS 38.101-1, 38-101-2 and 38.101-3.
+PCMAX,c	Configured UE transmitted power on a serving cell c as defined in clause 6.2.4 in TS 38.101-1, 38-101-2 and 38.101-3
+S	Cell Selection Criterion defined in TS 38.304, subclause 5.2.3.2 for NR
+SSB_RP	Received (linear) average power of the resource elements that carry NR synchronisation burst, measured at
+
+--------------------------------------------------------------------------------
+Result 6
+Search term: antenna
+Approximate line: 95
+
+or or radiated interface boundary
+	Physical Resource Block number as defined in clause 3.2 in TS 38.211.
+	Timing offset between uplink and downlink radio frames at the UE, as defined in clause 4.2 in TS 38.213.
+	Fixed timing advance offset, as defined in clause 7.1.2 in TS 38.133.
+	Configured UE transmitted power as defined in clause 6.2.4 in TS 38.101-1, 38-101-2 and 38.101-3.
+PCMAX,c	Configured UE transmitted power on a serving cell c as defined in clause 6.2.4 in TS 38.101-1, 38-101-2 and 38.101-3
+S	Cell Selection Criterion defined in TS 38.304, subclause 5.2.3.2 for NR
+SSB_RP	Received (linear) average power of the resource elements that carry NR synchronisation burst, measured at the UE antenna connector or radiated interface boundary
+Srxlev	Cell selection RX level, defined in TS 38.304, subclause 5.2.3.2
+Squal	Cell selection quality, defined in TS 38.304, subclause 5.2.3.2
+Sintrasearch	Defined in TS 38.304 , subclause 5.2.4.7 for E-UTRAN amd 38.304 subclause 5.2.4.7 for NR
+Snonintrasearch	Defined in TS 38.304 , subclause 5.2.4.7
+Tc	Basic time unit, defined in clause 4.1 of TS 38.211 [6].
+Treselection	Defined in TS 25.304, subclause 5.2.6.1.5
+TreselectionRAT	Defined in TS 36.304 , subclause 5.2.4.7
+TreselectionEUTRA	Defined in TS 36.304 , subclause 5.2.4.7
+TreselectionUTRA	Defined in TS 36.304 , subclause 5.2.4.7
+TreselectionGERANDefined in TS 36.304 , subclause 5.2.4.
+Threshx, hi
+
+--------------------------------------------------------------------------------
+Result 7
+Search term: antenna
+Approximate line: 195
+
+condary Cell
+SCG	Secondary Cell Group
+SCS	Subcarrier Spacing
+SCSSSB	SSB subcarrier spacing
+SDL	Supplementary Downlink
+SFN	System Frame Number
+SFTD	SFN and Frame Timing Difference
+SI	System Information
+SIB	System Information Block
+SMTC	SSB-based Measurement Timing configuration
+SpCell	Special Cell
+SRS	Sounding Reference Signal
+SS-RSRP	Synchronization Signal based Reference Signal Received Power
+SS-RSRQ	Synchronization Signal based Reference Signal Received Quality
+SS-SINR	Synchronization Signal based Signal to Noise and Interference Ratio
+SSB	Synchronization Signal Block
+SSB_RP	Received (linear) average power of the resource elements that carry NR SSB signals and channels, measured at the UE antenna connector or radiated interface boundary.
+SSS	Secondary Synchronization Signal
+sTAG	Secondary Timing Advance Group
+SUL	Supplementary Uplink
+TA	Timing Advance
+TAG	Timing Advance Group
+TCI	Transmission Configuration Indicator
+TDD	Time Division Duplex
+TTI	Transmission Time Interval
+UE	User Equipment
+UL	Uplink
+
+3.4	Test tolerances
+The requirements given in the present document make no allowance for measurement uncertainty. The test specification 38.533 [5] defines the test tolerances.
+3.5	Frequency bands grouping
+3.5.1	Introduction
+The intention with the frequency band grouping below is to increase the readability of the specification.
+The frequency bands grouping is derived based on UE REFSENS
+
+--------------------------------------------------------------------------------
+Result 8
+Search term: antenna
+Approximate line: 645
+
+e timing of its transmissions with a relative accuracy better than or equal to the UE Timing Advance adjustment accuracy requirement in Table 7.3.2.2-1, to the signalled timing advance value compared to the timing of preceding uplink transmission. The timing advance command step is defined in TS 38.213 [3].
+Table 7.3.2.2-1: UE Timing Advance adjustment accuracy
+7.4	Cell phase synchronization accuracy
+7.4.1	Definition
+Cell phase synchronization accuracy for TDD is defined as the maximum absolute deviation in frame start timing between any pair of cells on the same frequency that have overlapping coverage areas.
+7.4.2	Minimum requirements
+The cell phase synchronization accuracy measured at BS antenna connectors or radiated interface boundaries shall be better than 3 µs.
+7.5	Maximum Transmission Timing Difference
+7.5.1	Introduction
+A UE shall be capable of handling a relative transmission timing difference between subframe timing boundary of E-UTRA PCell and the closest slot timing boundary of PSCell to be aggregated for EN-DC operation.
+A UE shall be capable of handling a relative transmission timing difference among the closest slot timing boundaries of different carriers to be aggregated in NR carrier aggregation.
+A UE shall be capable of handling a relative transmission timing difference between slot timing boundary of PCell and subframe timing boundary of E-UTRA PSCell to be aggrega
+
+--------------------------------------------------------------------------------
+Result 9
+Search term: antenna
+Approximate line: 3107
+
+curacy requirements in Table 10.1.21.1-4 are appilicable under the following conditions:
+For FR1 PCell SFN and frame timing measurement:
+	-	Conditions defined in clause 7.3 of TS 38.101-1 [18] for reference sensitivity are fulfilled.
+	-	Io range deifined in Table 10.1.21.1-1.
+Table 10.1.21.1-1: PCell Io range conditions in FR1
+
+For FR2 PCell SFN and frame timing measurement:
+-	Conditions defined in clause 7.3 of TS 38.101-2 [19] for reference sensitivity are fulfilled.
+-	Io range deifined in Table 10.1.21.1-2.
+Table 10.1.21.1-2: PCell Io range conditions in FR2
+
+For E-UTRA PSCell SFN and frame timing measurement:
+-	Cell specific reference signals are transmitted either from one, two or four antenna ports.
+-	Conditions defined in TS 36.101 [25] Clause 7.3 for reference sensitivity are fulfilled.
+-	No changes to the uplink transmission timing are applied during the measurement period.
+-	RSRP|dBm according to Annex B.3.5 in TS 36.101 [25] for a corresponding Band.
+-	Io range deifined in Table 10.1.21.1-3.
+Table 10.1.21.1-3: E-UTRA PSCell Io range conditions
+
+Table 10.1.21.1-4: SFTD measurement accuracy
+
+10.1.21.2	SFTD acuracy requirements for NR-DC
+The SFN and frame timing difference (SFTD) is measured between PCell in FR1 and PSCell in FR2 under NR dual connectivity.
+The accuracy requirements in Table 10.1.21.2-3 are appilicable under the following conditions:
+For FR1 PCell SFN and fram
+
+
+================================================================================
+Faulty RF Filters
+================================================================================
+
+NO MATCHES FOUND
+
+================================================================================
+Doppler / Mobility
+================================================================================
+
+--------------------------------------------------------------------------------
+Result 1
+Search term: mobility
+Approximate line: 270
+
+ed in this version of the specification, a reference signal is considered to be QCLed to another reference signal if it is in the same TCI chain as the other reference signal, provided that the number of Reference Signals in the chain is no more than 4. It is assumed there is single QCL type per TCI chain.
+A TCI chain consists of an SSB, and one or more CSI-RS resources, and the TCI state of each Reference Signal includes another Reference Signal in the same TCI chain. 
+DMRS of PDCCH or PDSCH is QCLed with the reference signal in its active TCI state and any other reference signal that is QCLed, based on above criteria, with the reference signal in the active TCI state.
+4	SA: RRC_IDLE state mobility
+4.1	Cell Selection
+After a UE has switched on and a PLMN has been selected, the cell selection process takes place, as described in TS 38.304 [1]. This process allows the UE to select a suitable cell where to camp on in order to access available services. In this process, the UE can use stored information (Stored information cell selection) or not (Initial cell selection).
+4.2	Cell Re-selection
+4.2.1	Introduction
+The cell reselection procedure allows the UE to select a more suitable cell and camp on it.
+When the UE is in either Camped Normally state or Camped on Any Cell state on a cell, the UE shall attempt to detect, synchronise, and monitor intra-frequency, inter-frequency and inter-RAT
+
+--------------------------------------------------------------------------------
+Result 2
+Search term: mobility
+Approximate line: 368
+
+TSI-EUTRA is the time required for receiving all the relevant system information data according to the reception procedure and the RRC procedure delay of system information blocks defined in TS 36.331 [16] for an E-UTRAN cell.
+These requirements assume sufficient radio conditions, so that decoding of system information can be made without errors and does not take into account cell re-selection failure.
+4.2.2.7	General requirements
+The UE shall search every layer of higher priority at least every Thigher_priority_search = (60 * Nlayers) seconds, where Nlayers is the total number of higher priority NR and E-UTRA carrier frequencies broadcasted in system information.
+
+5	SA: RRC_INACTIVE state mobility
+5.1	Cell Re-selection
+5.1.1	Introduction
+The cell reselection procedure allows the UE to select a more suitable cell and camp on it.
+When the UE is in Camped Normally state on a cell, the UE shall attempt to detect, synchronise, and monitor intra-frequency, inter-frequency and inter-RAT cells indicated by the serving cell. For intra-frequency and inter-frequency cells the serving cell may not provide explicit neighbour list but carrier frequency information and bandwidth information only. UE measurement activity is also controlled by measurement rules defined in TS38.304 [1], allowing the UE to limit its measurement activity.
+5.1.2	Requirements
+5.1.2.1	UE measurement capability
+The requirem
+
+--------------------------------------------------------------------------------
+Result 3
+Search term: mobility
+Approximate line: 389
+
+2.1	UE measurement capability
+The requirements in sub-clause 4.2.2.1 shall apply.
+5.1.2.2	Measurement and evaluation of serving cell
+The requirements in sub-clause 4.2.2.2 shall apply.
+5.1.2.3	Measurements of intra-frequency NR cells
+The requirements in sub-clause 4.2.2.3 shall apply.
+5.1.2.4	Measurements of inter-frequency NR cells
+The requirements in sub-clause 4.2.2.4 shall apply.
+5.1.2.5	Measurements of inter-RAT E-UTRAN cells
+The requirements in sub-clause 4.2.2.5 shall apply.
+5.1.2.6	Maximum interruption in paging reception
+The requirements in sub-clause 4.2.2.6 shall apply.
+5.1.2.7	General requirements
+The requirements in sub-clause 4.2.2.7 shall apply.
+5.2	Void
+6	RRC_CONNECTED state mobility
+6.1	Handover
+6.1.1	NR Handover
+6.1.1.1	Introduction
+The purpose of NR handover is to change the NR PCell to another NR cell. The requirements in this clause are applicable to SA NR, NE-DC and NR-DC.
+6.1.1.2	NR FR1 - NR FR1 Handover
+The requirements in this clause are applicable to both intra-frequency and inter-frequency handovers from NR FR1 cell to NR FR1 cell.
+6.1.1.2.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover msec from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2]
+
+--------------------------------------------------------------------------------
+Result 4
+Search term: mobility
+Approximate line: 498
+
+quality is sufficient for successful cell detection on the first attempt, then Tsearch = 80 ms. Regardless of whether DRX is in use by the UE, Tsearch shall still be based on non-DRX target cell search times.
+	TIU is the interruption uncertainty in acquiring the first available PRACH occasion in the new cell. TIU can be up to 30 ms.
+NOTE:	The actual value of TIU shall depend upon the PRACH configuration used in the target cell.
+	In the interruption requirement a cell is known if it has been meeting the relevant cell identification requirement during the last 5 seconds otherwise it is unknown. Relevant E-UTRAN cell identification requirements are described in clause 9.4.1.
+6.2	RRC Connection Mobility Control
+6.2.1	SA: RRC Re-establishment
+6.2.1.1	Introduction
+This clause contains requirements on the UE regarding RRC connection re-establishment procedure. RRC connection re-establishment is initiated when a UE in RRC_CONNECTED state loses RRC connection due to any of failure cases, including radio link failure, handover failure, and RRC connection reconfiguration failure. The RRC connection re-establishment procedure is specified in clause 5.3.7 of TS 38.331 [2].
+The requirements in this clause are applicable for RRC connection re-establishment to NR cell.
+6.2.1.2	Requirements
+In RRC_CONNECTED state the UE shall be capable of sending RRCReestablishmentRequest message within Tre-establish_
+
+
+================================================================================
+Buffer Overflow
+================================================================================
+
+NO MATCHES FOUND
+
+================================================================================
+Congestion / Overload
+================================================================================
+
+NO MATCHES FOUND
+
+================================================================================
+Resource Allocation
+================================================================================
+
+--------------------------------------------------------------------------------
+Result 1
+Search term: radio resource management
+Approximate line: 14
+
+e TSG and may change following formal TSG approval. Should the TSG modify the contents of the present document, it will be re-released by the TSG with an identifying change of release date and an increase in version number as follows:
+Version x.y.z
+where:
+x	the first digit:
+1	presented to TSG for information;
+2	presented to TSG for approval;
+3	or greater indicates TSG approved document under change control.
+y	the second digit is incremented for all changes of substance, i.e. technical enhancements, corrections, updates, etc.
+z	the third digit is incremented when editorial only changes have been incorporated in the document.
+
+1	Scope
+The present document specifies requirements for support of Radio Resource Management for the FDD and TDD modes of New Radio (NR). These requirements include requirements on measurements in NR and the UE as well as requirements on node dynamical behaviour and interaction, in terms of delay and response characteristics.
+2	References
+The following documents contain provisions which, through reference in this text, constitute provisions of the present document.
+-	References are either specific (identified by date of publication, edition number, version number, etc.) or non-specific.
+-	For a specific reference, subsequent revisions do not apply.
+-	For a non-specific reference, the latest version applies. In the case of a reference to a 3GPP document (including a GSM document), a
+
+--------------------------------------------------------------------------------
+Result 2
+Search term: radio resource management
+Approximate line: 24
+
+n number, etc.) or non-specific.
+-	For a specific reference, subsequent revisions do not apply.
+-	For a non-specific reference, the latest version applies. In the case of a reference to a 3GPP document (including a GSM document), a non-specific reference implicitly refers to the latest version of that document in the same Release as the present document.
+[1]	3GPP TS 38.304: "NR; User Equipment (UE) procedures in idle mode".
+[2]	3GPP TS 38.331: "NR; Radio Resource Control (RRC); Protocol specification".
+[3]	3GPP TS 38.213: "NR; Physical layer procedures for control".
+[4]	3GPP TS 38.215: "NR; Physical layer measurements".
+[5]	3GPP TS 38.533: "NR; User Equipment (UE) conformance specification; Radio Resource Management (RRM)".
+[6]	3GPP TS 38.211: "NR; Physical channels and modulation”.
+[7]	3GPP TS 38.321: "NR; Medium Access Control (MAC) protocol specification".
+[8]	3GPP TS 38.212 "NR; Multiplexing and channel coding".
+[9]	3GPP TS 38.202: "NR; Physical layer services provided by the physical layer".
+[10]	3GPP TS 38.300: "NR; Overall description; Stage-2".
+[11]	3GPP TR 21.905: "Vocabulary for 3GPP Specifications".
+[12]	3GPP TS 38.423: "NG-RAN; Xn Application Protocol (XnAP)".
+[13]	3GPP TS 38.104: "NR; Base Station (BS) radio transmission and reception".
+[14]	3GPP TS 38.306: "NR; User Equipment (UE) radio access capabilities".
+[15]	3GPP TS 36.133: "Evolved Universal Terrestrial Radio Access (E-UTRA); Requir
+
+--------------------------------------------------------------------------------
+Result 3
+Search term: radio resource management
+Approximate line: 34
+
+8.211: "NR; Physical channels and modulation”.
+[7]	3GPP TS 38.321: "NR; Medium Access Control (MAC) protocol specification".
+[8]	3GPP TS 38.212 "NR; Multiplexing and channel coding".
+[9]	3GPP TS 38.202: "NR; Physical layer services provided by the physical layer".
+[10]	3GPP TS 38.300: "NR; Overall description; Stage-2".
+[11]	3GPP TR 21.905: "Vocabulary for 3GPP Specifications".
+[12]	3GPP TS 38.423: "NG-RAN; Xn Application Protocol (XnAP)".
+[13]	3GPP TS 38.104: "NR; Base Station (BS) radio transmission and reception".
+[14]	3GPP TS 38.306: "NR; User Equipment (UE) radio access capabilities".
+[15]	3GPP TS 36.133: "Evolved Universal Terrestrial Radio Access (E-UTRA); Requirements for support of radio resource management".
+[16]	3GPP TS 36.331: "Evolved Universal Terrestrial Radio Access (E-UTRA); Radio Resource Control (RRC) protocol specification".
+[17]	3GPP TS 37.340: "Evolved Universal Terrestrial Radio Access (E-UTRA) and NR; Multi-connectivity", Stage 2.
+[18]	3GPP TS 38.101-1: "NR; User Equipment (UE) radio transmission and reception; Part 1: Range 1 Standalone".
+[19]	3GPP TS 38.101-2: "NR; User Equipment (UE) radio transmission and reception; Part 2: Range 2 Standalone".
+[20]	3GPP TS 38.101-3: "NR; User Equipment (UE) radio transmission and reception; Part 3: Range 1 and Range 2 Interworking operation with other radios".
+[21]	3GPP TS 38.101-4: "NR; User Equipment (UE) radio transmission and reception;
+
+--------------------------------------------------------------------------------
+Result 4
+Search term: radio resource management
+Approximate line: 174
+
+ivision Multiplexing
+OFDMA	Orthogonal Frequency Division Multiple Access
+OTDOA	Observed Time Difference Of Arrival
+PBCH	Physical Broadcast Channel
+PCC	Primary Component Carrier
+PCell	Primary Cell
+PDCCH	Physical Downlink Control Channel
+PDSCH	Physical Downlink Shared Channel
+PLMN	Public Land Mobile Network
+PRACH	Physical RACH
+PSCell	Primary SCell
+PSS	Primary Synchronization Signal
+pTAG	Primary Timing Advance Group
+PUCCH	Physical Uplink Control Channel
+PUSCH	Physical Uplink Shared Channel
+QCL	Quasi Co-Location
+RACH	Random Access Channel
+RAT	Radio Access Technology
+RLM	Radio Link Monitoring
+RLM-RS	Reference Signal for RLM
+RMSI	Remaining Minimum System Information
+RRC	Radio Resource Control
+RRM	Radio Resource Management
+RSSI	Received Signal Strength Indicator
+RSTD	Reference Signal Time Difference
+SA	Standalone operation mode
+SCC	Secondary Component Carrier
+SCell	Secondary Cell
+SCG	Secondary Cell Group
+SCS	Subcarrier Spacing
+SCSSSB	SSB subcarrier spacing
+SDL	Supplementary Downlink
+SFN	System Frame Number
+SFTD	SFN and Frame Timing Difference
+SI	System Information
+SIB	System Information Block
+SMTC	SSB-based Measurement Timing configuration
+SpCell	Special Cell
+SRS	Sounding Reference Signal
+SS-RSRP	Synchronization Signal based Reference Signal Received Power
+SS-RSRQ	Synchronization Signal based Reference Signal Received Quality
+SS-SINR	Synchronization Signal based Signal to Noise and Interference Ratio
+SSB	Sync
+
+
+================================================================================
+Handover
+================================================================================
+
+--------------------------------------------------------------------------------
+Result 1
+Search term: handover failure
+Approximate line: 501
+
+to 30 ms.
+NOTE:	The actual value of TIU shall depend upon the PRACH configuration used in the target cell.
+	In the interruption requirement a cell is known if it has been meeting the relevant cell identification requirement during the last 5 seconds otherwise it is unknown. Relevant E-UTRAN cell identification requirements are described in clause 9.4.1.
+6.2	RRC Connection Mobility Control
+6.2.1	SA: RRC Re-establishment
+6.2.1.1	Introduction
+This clause contains requirements on the UE regarding RRC connection re-establishment procedure. RRC connection re-establishment is initiated when a UE in RRC_CONNECTED state loses RRC connection due to any of failure cases, including radio link failure, handover failure, and RRC connection reconfiguration failure. The RRC connection re-establishment procedure is specified in clause 5.3.7 of TS 38.331 [2].
+The requirements in this clause are applicable for RRC connection re-establishment to NR cell.
+6.2.1.2	Requirements
+In RRC_CONNECTED state the UE shall be capable of sending RRCReestablishmentRequest message within Tre-establish_delay seconds from the moment it detects a loss in RRC connection. The total RRC connection delay (Tre-establish_delay) shall be less than:
+
+TUL_grant: It is the time required to acquire and process uplink grant from the target PCell. The uplink grant is required to transmit RRCReestablishmentRequest message.
+The UE re-establishme
+
+--------------------------------------------------------------------------------
+Result 2
+Search term: handover procedure
+Approximate line: 482
+
+ing the last 5 seconds before the reception of the handover command:
+-	the UE has sent a valid measurement report for the target cell and
+-	One of the SSBs measured from the NR target cell being configured remains detectable according to the cell identification conditions specified in clause 9.3,
+-	One of the SSBs measured from the target cell also remains detectable during the handover delay according to the cell identification conditions specified in clause 9.3.
+otherwise it is unknown.
+6.1.2	NR Handover to other RATs
+6.1.2.1	NR – E-UTRAN Handover
+6.1.2.1.1	Introduction
+The purpose of inter-RAT handover from NR to E-UTRAN is to change the radio access mode of PCell from NR to E-UTRAN. The handover procedure is initiated from NR with a RRC message that implies a handover as described in TS 38.331 [2]. The requirements in this clause are applicable to SA NR, NE-DC and NR-DC.
+If PRACH occasion is configured in radio frames with even SFN and the relative time difference between radio frame i in the current cell and the target cell is not less than 153600⋅Ts, the longer handover delay is expected.
+6.1.2.1.2	Handover delay
+When the UE receives a RRC message implying handover to E-UTRAN the UE shall be ready to start the transmission of the uplink PRACH channel in E-UTRA within Dhandover ms from the end of the last TTI containing the RRC command. Dhandover is defined as
+Dhandover = TRRC_procedure_del
+
+--------------------------------------------------------------------------------
+Result 3
+Search term: handover
+Approximate line: 138
+
+er the definition of the same abbreviation, if any, in TR 21.905 [11].
+BFD	Beam Failure Detection
+BFD-RS	BFD Reference Signal
+BLER	Block Error Rate
+BM-RS	Beam Management Reference Signal
+BWP	Bandwidth Part
+CA	Carrier Aggregation
+CBD	Candidate Beam Detection
+CC	Component Carrier
+CORESET	Control Resource Set
+CP	Cyclic Prefix
+CSI	Channel-State Information
+CSI-RS	CSI Reference Signal
+DC	Dual Connectivity
+DCI	Downlink Control Information
+DL	Downlink
+DMRS	Demodulation Reference Signal
+DRX	Discontinuous Reception
+E-CID	Enhanced Cell ID
+E-UTRA	Evolved UTRA
+E-UTRAN	Evolved UTRAN
+EN-DC	E-UTRA-NR Dual Connectivity
+FDD	Frequency Division Duplex
+FR	Frequency Range
+HARQ	Hybrid Automatic Repeat Request
+HO	Handover
+L1-RSRP	Layer 1 RSRP
+MAC	Medium Access Control
+MCG	Master Cell Group
+MG	Measurement Gap
+MGL	Measurement Gap Length
+MGRP	Measurement Gap Repetition Period
+MIB	Master Information Block
+MN	Master Node
+MR-DC	Multi-Radio Dual Connectivity
+NE-DC	NR-E-UTRA Dual Connectivity
+NGEN-DC	NG-RAN E-UTRA-NR Dual Connectivity
+NR	New Radio
+NR-DC	NR-NR Dual Connectivity
+OFDM	Orthogonal Frequency Division Multiplexing
+OFDMA	Orthogonal Frequency Division Multiple Access
+OTDOA	Observed Time Difference Of Arrival
+PBCH	Physical Broadcast Channel
+PCC	Primary Component Carrier
+PCell	Primary Cell
+PDCCH	Physical Downlink Control Channel
+PDSCH	Physical Downlink Shared Channel
+PLMN	Public Land Mobile Network
+PRACH	Physi
+
+--------------------------------------------------------------------------------
+Result 4
+Search term: handover
+Approximate line: 390
+
+ement capability
+The requirements in sub-clause 4.2.2.1 shall apply.
+5.1.2.2	Measurement and evaluation of serving cell
+The requirements in sub-clause 4.2.2.2 shall apply.
+5.1.2.3	Measurements of intra-frequency NR cells
+The requirements in sub-clause 4.2.2.3 shall apply.
+5.1.2.4	Measurements of inter-frequency NR cells
+The requirements in sub-clause 4.2.2.4 shall apply.
+5.1.2.5	Measurements of inter-RAT E-UTRAN cells
+The requirements in sub-clause 4.2.2.5 shall apply.
+5.1.2.6	Maximum interruption in paging reception
+The requirements in sub-clause 4.2.2.6 shall apply.
+5.1.2.7	General requirements
+The requirements in sub-clause 4.2.2.7 shall apply.
+5.2	Void
+6	RRC_CONNECTED state mobility
+6.1	Handover
+6.1.1	NR Handover
+6.1.1.1	Introduction
+The purpose of NR handover is to change the NR PCell to another NR cell. The requirements in this clause are applicable to SA NR, NE-DC and NR-DC.
+6.1.1.2	NR FR1 - NR FR1 Handover
+The requirements in this clause are applicable to both intra-frequency and inter-frequency handovers from NR FR1 cell to NR FR1 cell.
+6.1.1.2.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover msec from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the int
+
+--------------------------------------------------------------------------------
+Result 5
+Search term: handover
+Approximate line: 391
+
+he requirements in sub-clause 4.2.2.1 shall apply.
+5.1.2.2	Measurement and evaluation of serving cell
+The requirements in sub-clause 4.2.2.2 shall apply.
+5.1.2.3	Measurements of intra-frequency NR cells
+The requirements in sub-clause 4.2.2.3 shall apply.
+5.1.2.4	Measurements of inter-frequency NR cells
+The requirements in sub-clause 4.2.2.4 shall apply.
+5.1.2.5	Measurements of inter-RAT E-UTRAN cells
+The requirements in sub-clause 4.2.2.5 shall apply.
+5.1.2.6	Maximum interruption in paging reception
+The requirements in sub-clause 4.2.2.6 shall apply.
+5.1.2.7	General requirements
+The requirements in sub-clause 4.2.2.7 shall apply.
+5.2	Void
+6	RRC_CONNECTED state mobility
+6.1	Handover
+6.1.1	NR Handover
+6.1.1.1	Introduction
+The purpose of NR handover is to change the NR PCell to another NR cell. The requirements in this clause are applicable to SA NR, NE-DC and NR-DC.
+6.1.1.2	NR FR1 - NR FR1 Handover
+The requirements in this clause are applicable to both intra-frequency and inter-frequency handovers from NR FR1 cell to NR FR1 cell.
+6.1.1.2.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover msec from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time sta
+
+--------------------------------------------------------------------------------
+Result 6
+Search term: handover
+Approximate line: 393
+
+y.
+5.1.2.2	Measurement and evaluation of serving cell
+The requirements in sub-clause 4.2.2.2 shall apply.
+5.1.2.3	Measurements of intra-frequency NR cells
+The requirements in sub-clause 4.2.2.3 shall apply.
+5.1.2.4	Measurements of inter-frequency NR cells
+The requirements in sub-clause 4.2.2.4 shall apply.
+5.1.2.5	Measurements of inter-RAT E-UTRAN cells
+The requirements in sub-clause 4.2.2.5 shall apply.
+5.1.2.6	Maximum interruption in paging reception
+The requirements in sub-clause 4.2.2.6 shall apply.
+5.1.2.7	General requirements
+The requirements in sub-clause 4.2.2.7 shall apply.
+5.2	Void
+6	RRC_CONNECTED state mobility
+6.1	Handover
+6.1.1	NR Handover
+6.1.1.1	Introduction
+The purpose of NR handover is to change the NR PCell to another NR cell. The requirements in this clause are applicable to SA NR, NE-DC and NR-DC.
+6.1.1.2	NR FR1 - NR FR1 Handover
+The requirements in this clause are applicable to both intra-frequency and inter-frequency handovers from NR FR1 cell to NR FR1 cell.
+6.1.1.2.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover msec from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.2.2.
+6.1.1.2.2	Interruption
+
+--------------------------------------------------------------------------------
+Result 7
+Search term: handover
+Approximate line: 394
+
+s
+The requirements in sub-clause 4.2.2.3 shall apply.
+5.1.2.4	Measurements of inter-frequency NR cells
+The requirements in sub-clause 4.2.2.4 shall apply.
+5.1.2.5	Measurements of inter-RAT E-UTRAN cells
+The requirements in sub-clause 4.2.2.5 shall apply.
+5.1.2.6	Maximum interruption in paging reception
+The requirements in sub-clause 4.2.2.6 shall apply.
+5.1.2.7	General requirements
+The requirements in sub-clause 4.2.2.7 shall apply.
+5.2	Void
+6	RRC_CONNECTED state mobility
+6.1	Handover
+6.1.1	NR Handover
+6.1.1.1	Introduction
+The purpose of NR handover is to change the NR PCell to another NR cell. The requirements in this clause are applicable to SA NR, NE-DC and NR-DC.
+6.1.1.2	NR FR1 - NR FR1 Handover
+The requirements in this clause are applicable to both intra-frequency and inter-frequency handovers from NR FR1 cell to NR FR1 cell.
+6.1.1.2.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover msec from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.2.2.
+6.1.1.2.2	Interruption time
+The interruption time is the time between end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of
+
+--------------------------------------------------------------------------------
+Result 8
+Search term: handover
+Approximate line: 395
+
+ls
+The requirements in sub-clause 4.2.2.4 shall apply.
+5.1.2.5	Measurements of inter-RAT E-UTRAN cells
+The requirements in sub-clause 4.2.2.5 shall apply.
+5.1.2.6	Maximum interruption in paging reception
+The requirements in sub-clause 4.2.2.6 shall apply.
+5.1.2.7	General requirements
+The requirements in sub-clause 4.2.2.7 shall apply.
+5.2	Void
+6	RRC_CONNECTED state mobility
+6.1	Handover
+6.1.1	NR Handover
+6.1.1.1	Introduction
+The purpose of NR handover is to change the NR PCell to another NR cell. The requirements in this clause are applicable to SA NR, NE-DC and NR-DC.
+6.1.1.2	NR FR1 - NR FR1 Handover
+The requirements in this clause are applicable to both intra-frequency and inter-frequency handovers from NR FR1 cell to NR FR1 cell.
+6.1.1.2.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover msec from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.2.2.
+6.1.1.2.2	Interruption time
+The interruption time is the time between end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excluding the RRC procedure delay.
+When intra-frequency or inter-frequency handover
+
+--------------------------------------------------------------------------------
+Result 9
+Search term: handover
+Approximate line: 396
+
+.
+5.1.2.5	Measurements of inter-RAT E-UTRAN cells
+The requirements in sub-clause 4.2.2.5 shall apply.
+5.1.2.6	Maximum interruption in paging reception
+The requirements in sub-clause 4.2.2.6 shall apply.
+5.1.2.7	General requirements
+The requirements in sub-clause 4.2.2.7 shall apply.
+5.2	Void
+6	RRC_CONNECTED state mobility
+6.1	Handover
+6.1.1	NR Handover
+6.1.1.1	Introduction
+The purpose of NR handover is to change the NR PCell to another NR cell. The requirements in this clause are applicable to SA NR, NE-DC and NR-DC.
+6.1.1.2	NR FR1 - NR FR1 Handover
+The requirements in this clause are applicable to both intra-frequency and inter-frequency handovers from NR FR1 cell to NR FR1 cell.
+6.1.1.2.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover msec from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.2.2.
+6.1.1.2.2	Interruption time
+The interruption time is the time between end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excluding the RRC procedure delay.
+When intra-frequency or inter-frequency handover is commanded, the interruption time shall be less tha
+
+--------------------------------------------------------------------------------
+Result 10
+Search term: handover
+Approximate line: 397
+
+rements in sub-clause 4.2.2.5 shall apply.
+5.1.2.6	Maximum interruption in paging reception
+The requirements in sub-clause 4.2.2.6 shall apply.
+5.1.2.7	General requirements
+The requirements in sub-clause 4.2.2.7 shall apply.
+5.2	Void
+6	RRC_CONNECTED state mobility
+6.1	Handover
+6.1.1	NR Handover
+6.1.1.1	Introduction
+The purpose of NR handover is to change the NR PCell to another NR cell. The requirements in this clause are applicable to SA NR, NE-DC and NR-DC.
+6.1.1.2	NR FR1 - NR FR1 Handover
+The requirements in this clause are applicable to both intra-frequency and inter-frequency handovers from NR FR1 cell to NR FR1 cell.
+6.1.1.2.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover msec from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.2.2.
+6.1.1.2.2	Interruption time
+The interruption time is the time between end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excluding the RRC procedure delay.
+When intra-frequency or inter-frequency handover is commanded, the interruption time shall be less than Tinterrupt
+	Tinterrupt = Tsearch + TIU + Tprocessing  + T
+
+--------------------------------------------------------------------------------
+Result 11
+Search term: handover
+Approximate line: 397
+
+equirements in sub-clause 4.2.2.6 shall apply.
+5.1.2.7	General requirements
+The requirements in sub-clause 4.2.2.7 shall apply.
+5.2	Void
+6	RRC_CONNECTED state mobility
+6.1	Handover
+6.1.1	NR Handover
+6.1.1.1	Introduction
+The purpose of NR handover is to change the NR PCell to another NR cell. The requirements in this clause are applicable to SA NR, NE-DC and NR-DC.
+6.1.1.2	NR FR1 - NR FR1 Handover
+The requirements in this clause are applicable to both intra-frequency and inter-frequency handovers from NR FR1 cell to NR FR1 cell.
+6.1.1.2.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover msec from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.2.2.
+6.1.1.2.2	Interruption time
+The interruption time is the time between end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excluding the RRC procedure delay.
+When intra-frequency or inter-frequency handover is commanded, the interruption time shall be less than Tinterrupt
+	Tinterrupt = Tsearch + TIU + Tprocessing  + T∆ + Tmargin ms
+Where:
+	Tsearch is the time required to search the target cell when the target cel
+
+--------------------------------------------------------------------------------
+Result 12
+Search term: handover
+Approximate line: 399
+
+requirements in sub-clause 4.2.2.7 shall apply.
+5.2	Void
+6	RRC_CONNECTED state mobility
+6.1	Handover
+6.1.1	NR Handover
+6.1.1.1	Introduction
+The purpose of NR handover is to change the NR PCell to another NR cell. The requirements in this clause are applicable to SA NR, NE-DC and NR-DC.
+6.1.1.2	NR FR1 - NR FR1 Handover
+The requirements in this clause are applicable to both intra-frequency and inter-frequency handovers from NR FR1 cell to NR FR1 cell.
+6.1.1.2.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover msec from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.2.2.
+6.1.1.2.2	Interruption time
+The interruption time is the time between end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excluding the RRC procedure delay.
+When intra-frequency or inter-frequency handover is commanded, the interruption time shall be less than Tinterrupt
+	Tinterrupt = Tsearch + TIU + Tprocessing  + T∆ + Tmargin ms
+Where:
+	Tsearch is the time required to search the target cell when the target cell is not already known when the handover command is received by the UE. If the
+
+--------------------------------------------------------------------------------
+Result 13
+Search term: handover
+Approximate line: 402
+
+handovers from NR FR1 cell to NR FR1 cell.
+6.1.1.2.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover msec from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.2.2.
+6.1.1.2.2	Interruption time
+The interruption time is the time between end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excluding the RRC procedure delay.
+When intra-frequency or inter-frequency handover is commanded, the interruption time shall be less than Tinterrupt
+	Tinterrupt = Tsearch + TIU + Tprocessing  + T∆ + Tmargin ms
+Where:
+	Tsearch is the time required to search the target cell when the target cell is not already known when the handover command is received by the UE. If the target cell is known, then Tsearch = 0 ms. If the target cell is an unknown intra-frequency cell and the target cell Es/Iot≥-2 dB, then Tsearch = Trs  ms. If the target cell is an unknown inter-frequency cell and the target cell Es/Iot≥-2 dB, then Tsearch = 3* Trs ms. Regardless of whether DRX is in use by the UE, Tsearch shall still be based on non-DRX target cell search times.
+	Tprocessing is time for UE p
+
+--------------------------------------------------------------------------------
+Result 14
+Search term: handover
+Approximate line: 405
+
+TI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.2.2.
+6.1.1.2.2	Interruption time
+The interruption time is the time between end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excluding the RRC procedure delay.
+When intra-frequency or inter-frequency handover is commanded, the interruption time shall be less than Tinterrupt
+	Tinterrupt = Tsearch + TIU + Tprocessing  + T∆ + Tmargin ms
+Where:
+	Tsearch is the time required to search the target cell when the target cell is not already known when the handover command is received by the UE. If the target cell is known, then Tsearch = 0 ms. If the target cell is an unknown intra-frequency cell and the target cell Es/Iot≥-2 dB, then Tsearch = Trs  ms. If the target cell is an unknown inter-frequency cell and the target cell Es/Iot≥-2 dB, then Tsearch = 3* Trs ms. Regardless of whether DRX is in use by the UE, Tsearch shall still be based on non-DRX target cell search times.
+	Tprocessing is time for UE processing. Tprocessing can be up to 20ms.
+	Tmargin is time for SSB post-processing. Tmargin can be up to 2ms.
+	T∆ is time for fine time tracking and acquiring full timing information of the target cell. T∆ = Trs for both known and unknown target cell
+
+--------------------------------------------------------------------------------
+Result 15
+Search term: handover
+Approximate line: 410
+
+rch times.
+	Tprocessing is time for UE processing. Tprocessing can be up to 20ms.
+	Tmargin is time for SSB post-processing. Tmargin can be up to 2ms.
+	T∆ is time for fine time tracking and acquiring full timing information of the target cell. T∆ = Trs for both known and unknown target cell.
+	TIU is the interruption uncertainty in acquiring the first available PRACH occasion in the new cell. TIU can be up to the summation of SSB to PRACH occasion association period and 10 ms. SSB to PRACH occasion associated period is defined in the table 8.1-1 of TS 38.213 [3].
+	Trs is the SMTC periodicity of the target NR cell if the UE has been provided with an SMTC configuration for the target cellin the handover command, otherwise Trs is the SMTC configured in the measObjectNR having the same SSB frequency and subcarrier spacing. If the measObjectNRs having the same SSB frequency and subcarrier spacing configured by MN and SN have different SMTC, Trs is the periodicity of one of the SMTC which is up to UE implementation. If the UE is not provided SMTC configuration or measurement object on this frequency, the requirement in this clause is applied with Trs=5ms assuming the SSB transmission periodicity is 5ms. There is no requirement if the SSB transmission periodicity is not 5ms. If the UE has been provided with higher layer in TS 38.331 [2] signaling of smtc2 prior to the handover command, Trs foll
+
+--------------------------------------------------------------------------------
+Result 16
+Search term: handover
+Approximate line: 410
+
+target cellin the handover command, otherwise Trs is the SMTC configured in the measObjectNR having the same SSB frequency and subcarrier spacing. If the measObjectNRs having the same SSB frequency and subcarrier spacing configured by MN and SN have different SMTC, Trs is the periodicity of one of the SMTC which is up to UE implementation. If the UE is not provided SMTC configuration or measurement object on this frequency, the requirement in this clause is applied with Trs=5ms assuming the SSB transmission periodicity is 5ms. There is no requirement if the SSB transmission periodicity is not 5ms. If the UE has been provided with higher layer in TS 38.331 [2] signaling of smtc2 prior to the handover command, Trs follows smtc1 or smtc2 according to the physical cell ID of the target cell.
+In the interruption requirement a cell is known if it has been meeting the relevant cell identification requirement during the last 5 seconds otherwise it is unknown. Relevant cell identification requirements are described in Clause 9.2.5 for intra-frequency handover and Clause 9.3.4 for inter-frequency handover.
+6.1.1.3	NR FR2- NR FR1 Handover
+The requirements in this clause are applicable to inter-frequency handovers from NR FR2 cell to NR FR1 cell.
+6.1.1.3.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH cha
+
+--------------------------------------------------------------------------------
+Result 17
+Search term: handover
+Approximate line: 411
+
+provided SMTC configuration or measurement object on this frequency, the requirement in this clause is applied with Trs=5ms assuming the SSB transmission periodicity is 5ms. There is no requirement if the SSB transmission periodicity is not 5ms. If the UE has been provided with higher layer in TS 38.331 [2] signaling of smtc2 prior to the handover command, Trs follows smtc1 or smtc2 according to the physical cell ID of the target cell.
+In the interruption requirement a cell is known if it has been meeting the relevant cell identification requirement during the last 5 seconds otherwise it is unknown. Relevant cell identification requirements are described in Clause 9.2.5 for intra-frequency handover and Clause 9.3.4 for inter-frequency handover.
+6.1.1.3	NR FR2- NR FR1 Handover
+The requirements in this clause are applicable to inter-frequency handovers from NR FR2 cell to NR FR1 cell.
+6.1.1.3.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover ms from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.3.2.
+6.1.1.3.2	Interruption time
+The interruption time is the time between the end of the last TTI containing the RRC command on
+
+--------------------------------------------------------------------------------
+Result 18
+Search term: handover
+Approximate line: 411
+
+ject on this frequency, the requirement in this clause is applied with Trs=5ms assuming the SSB transmission periodicity is 5ms. There is no requirement if the SSB transmission periodicity is not 5ms. If the UE has been provided with higher layer in TS 38.331 [2] signaling of smtc2 prior to the handover command, Trs follows smtc1 or smtc2 according to the physical cell ID of the target cell.
+In the interruption requirement a cell is known if it has been meeting the relevant cell identification requirement during the last 5 seconds otherwise it is unknown. Relevant cell identification requirements are described in Clause 9.2.5 for intra-frequency handover and Clause 9.3.4 for inter-frequency handover.
+6.1.1.3	NR FR2- NR FR1 Handover
+The requirements in this clause are applicable to inter-frequency handovers from NR FR2 cell to NR FR1 cell.
+6.1.1.3.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover ms from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.3.2.
+6.1.1.3.2	Interruption time
+The interruption time is the time between the end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts trans
+
+--------------------------------------------------------------------------------
+Result 19
+Search term: handover
+Approximate line: 412
+
+rement in this clause is applied with Trs=5ms assuming the SSB transmission periodicity is 5ms. There is no requirement if the SSB transmission periodicity is not 5ms. If the UE has been provided with higher layer in TS 38.331 [2] signaling of smtc2 prior to the handover command, Trs follows smtc1 or smtc2 according to the physical cell ID of the target cell.
+In the interruption requirement a cell is known if it has been meeting the relevant cell identification requirement during the last 5 seconds otherwise it is unknown. Relevant cell identification requirements are described in Clause 9.2.5 for intra-frequency handover and Clause 9.3.4 for inter-frequency handover.
+6.1.1.3	NR FR2- NR FR1 Handover
+The requirements in this clause are applicable to inter-frequency handovers from NR FR2 cell to NR FR1 cell.
+6.1.1.3.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover ms from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.3.2.
+6.1.1.3.2	Interruption time
+The interruption time is the time between the end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excludi
+
+--------------------------------------------------------------------------------
+Result 20
+Search term: handover
+Approximate line: 413
+
+periodicity is 5ms. There is no requirement if the SSB transmission periodicity is not 5ms. If the UE has been provided with higher layer in TS 38.331 [2] signaling of smtc2 prior to the handover command, Trs follows smtc1 or smtc2 according to the physical cell ID of the target cell.
+In the interruption requirement a cell is known if it has been meeting the relevant cell identification requirement during the last 5 seconds otherwise it is unknown. Relevant cell identification requirements are described in Clause 9.2.5 for intra-frequency handover and Clause 9.3.4 for inter-frequency handover.
+6.1.1.3	NR FR2- NR FR1 Handover
+The requirements in this clause are applicable to inter-frequency handovers from NR FR2 cell to NR FR1 cell.
+6.1.1.3.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover ms from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.3.2.
+6.1.1.3.2	Interruption time
+The interruption time is the time between the end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excluding the RRC procedure delay.
+When inter-frequency handover is commanded, the
+
+--------------------------------------------------------------------------------
+Result 21
+Search term: handover
+Approximate line: 414
+
+SB transmission periodicity is not 5ms. If the UE has been provided with higher layer in TS 38.331 [2] signaling of smtc2 prior to the handover command, Trs follows smtc1 or smtc2 according to the physical cell ID of the target cell.
+In the interruption requirement a cell is known if it has been meeting the relevant cell identification requirement during the last 5 seconds otherwise it is unknown. Relevant cell identification requirements are described in Clause 9.2.5 for intra-frequency handover and Clause 9.3.4 for inter-frequency handover.
+6.1.1.3	NR FR2- NR FR1 Handover
+The requirements in this clause are applicable to inter-frequency handovers from NR FR2 cell to NR FR1 cell.
+6.1.1.3.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover ms from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.3.2.
+6.1.1.3.2	Interruption time
+The interruption time is the time between the end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excluding the RRC procedure delay.
+When inter-frequency handover is commanded, the interruption time shall be less than Tinterrupt
+	Tin
+
+--------------------------------------------------------------------------------
+Result 22
+Search term: handover
+Approximate line: 415
+
+provided with higher layer in TS 38.331 [2] signaling of smtc2 prior to the handover command, Trs follows smtc1 or smtc2 according to the physical cell ID of the target cell.
+In the interruption requirement a cell is known if it has been meeting the relevant cell identification requirement during the last 5 seconds otherwise it is unknown. Relevant cell identification requirements are described in Clause 9.2.5 for intra-frequency handover and Clause 9.3.4 for inter-frequency handover.
+6.1.1.3	NR FR2- NR FR1 Handover
+The requirements in this clause are applicable to inter-frequency handovers from NR FR2 cell to NR FR1 cell.
+6.1.1.3.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover ms from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.3.2.
+6.1.1.3.2	Interruption time
+The interruption time is the time between the end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excluding the RRC procedure delay.
+When inter-frequency handover is commanded, the interruption time shall be less than Tinterrupt
+	Tinterrupt = Tsearch + TIU + Tprocessing + T∆ + Tmargin ms
+
+Wh
+
+--------------------------------------------------------------------------------
+Result 23
+Search term: handover
+Approximate line: 415
+
+follows smtc1 or smtc2 according to the physical cell ID of the target cell.
+In the interruption requirement a cell is known if it has been meeting the relevant cell identification requirement during the last 5 seconds otherwise it is unknown. Relevant cell identification requirements are described in Clause 9.2.5 for intra-frequency handover and Clause 9.3.4 for inter-frequency handover.
+6.1.1.3	NR FR2- NR FR1 Handover
+The requirements in this clause are applicable to inter-frequency handovers from NR FR2 cell to NR FR1 cell.
+6.1.1.3.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover ms from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.3.2.
+6.1.1.3.2	Interruption time
+The interruption time is the time between the end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excluding the RRC procedure delay.
+When inter-frequency handover is commanded, the interruption time shall be less than Tinterrupt
+	Tinterrupt = Tsearch + TIU + Tprocessing + T∆ + Tmargin ms
+
+Where:
+	Tsearch is the time required to search the target cell when the target cell is not already
+
+--------------------------------------------------------------------------------
+Result 24
+Search term: handover
+Approximate line: 417
+
+In the interruption requirement a cell is known if it has been meeting the relevant cell identification requirement during the last 5 seconds otherwise it is unknown. Relevant cell identification requirements are described in Clause 9.2.5 for intra-frequency handover and Clause 9.3.4 for inter-frequency handover.
+6.1.1.3	NR FR2- NR FR1 Handover
+The requirements in this clause are applicable to inter-frequency handovers from NR FR2 cell to NR FR1 cell.
+6.1.1.3.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover ms from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.3.2.
+6.1.1.3.2	Interruption time
+The interruption time is the time between the end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excluding the RRC procedure delay.
+When inter-frequency handover is commanded, the interruption time shall be less than Tinterrupt
+	Tinterrupt = Tsearch + TIU + Tprocessing + T∆ + Tmargin ms
+
+Where:
+	Tsearch is the time required to search the target cell when the target cell is not already known when the handover command is received by the UE. If the target cell is
+
+--------------------------------------------------------------------------------
+Result 25
+Search term: handover
+Approximate line: 420
+
+o inter-frequency handovers from NR FR2 cell to NR FR1 cell.
+6.1.1.3.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover ms from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.3.2.
+6.1.1.3.2	Interruption time
+The interruption time is the time between the end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excluding the RRC procedure delay.
+When inter-frequency handover is commanded, the interruption time shall be less than Tinterrupt
+	Tinterrupt = Tsearch + TIU + Tprocessing + T∆ + Tmargin ms
+
+Where:
+	Tsearch is the time required to search the target cell when the target cell is not already known when the handover command is received by the UE. If the target cell is known, then Tsearch = 0 ms. If the target cell is an unknown inter-frequency cell and the target cell Es/Iot ≥ -2 dB, then Tsearch = 3* Trs ms. Regardless of whether DRX is in use by the UE, Tsearch shall still be based on non-DRX target cell search times.
+	T∆ is time for fine time tracking and acquiring full timing information of the target cell. T∆ = Trs for both known and unknown target cel
+
+--------------------------------------------------------------------------------
+Result 26
+Search term: handover
+Approximate line: 424
+
+d of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.3.2.
+6.1.1.3.2	Interruption time
+The interruption time is the time between the end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excluding the RRC procedure delay.
+When inter-frequency handover is commanded, the interruption time shall be less than Tinterrupt
+	Tinterrupt = Tsearch + TIU + Tprocessing + T∆ + Tmargin ms
+
+Where:
+	Tsearch is the time required to search the target cell when the target cell is not already known when the handover command is received by the UE. If the target cell is known, then Tsearch = 0 ms. If the target cell is an unknown inter-frequency cell and the target cell Es/Iot ≥ -2 dB, then Tsearch = 3* Trs ms. Regardless of whether DRX is in use by the UE, Tsearch shall still be based on non-DRX target cell search times.
+	T∆ is time for fine time tracking and acquiring full timing information of the target cell. T∆ = Trs for both known and unknown target cell.
+	Tprocessing is time for UE processing. Tprocessing can be up to 40ms.
+	Tmargin is time for SSB post-processing. Tmargin can be up to 2ms.
+	TIU is the interruption uncertainty in acquiring the first available PRACH occasion in the new cell. TIU ca
+
+--------------------------------------------------------------------------------
+Result 27
+Search term: handover
+Approximate line: 429
+
+ch times.
+	T∆ is time for fine time tracking and acquiring full timing information of the target cell. T∆ = Trs for both known and unknown target cell.
+	Tprocessing is time for UE processing. Tprocessing can be up to 40ms.
+	Tmargin is time for SSB post-processing. Tmargin can be up to 2ms.
+	TIU is the interruption uncertainty in acquiring the first available PRACH occasion in the new cell. TIU can be up to the summation of SSB to PRACH occasion association period and 10 ms. SSB to PRACH occasion associated period is defined in the table 8.1-1 of TS 38.213 [3].
+	Trs is the SMTC periodicity of the target NR cell if the UE has been provided with an SMTC configuration for the target cell in the handover command, otherwise Trs is the SMTC configured in the measObjectNR having the same SSB frequency and subcarrier spacing. If such measObjectNRs configured by MN and SN have different SMTC, Trs is the periodicity of one of the SMTC which is up to UE implementation. If the UE is not provided SMTC configuration or measurement object on this frequency, the requirement in this clause is applied with Trs=5ms assuming the SSB transmission periodicity is 5ms. There is no requirement if the SSB transmission periodicity is not 5ms.
+In the interruption requirement a cell is known if it has been meeting the relevant cell identification requirement during the last 5 seconds otherwise it is unknown. Releva
+
+--------------------------------------------------------------------------------
+Result 28
+Search term: handover
+Approximate line: 430
+
+frequency and subcarrier spacing. If such measObjectNRs configured by MN and SN have different SMTC, Trs is the periodicity of one of the SMTC which is up to UE implementation. If the UE is not provided SMTC configuration or measurement object on this frequency, the requirement in this clause is applied with Trs=5ms assuming the SSB transmission periodicity is 5ms. There is no requirement if the SSB transmission periodicity is not 5ms.
+In the interruption requirement a cell is known if it has been meeting the relevant cell identification requirement during the last 5 seconds otherwise it is unknown. Relevant cell identification requirements are described in Clause 9.2.5 for intra-frequency handover and Clause 9.3.4 for inter-frequency handover.
+6.1.1.4	NR FR2- NR FR2 Handover
+The requirements in this clause are applicable to both intra-frequency and inter-frequency handovers from NR FR2 cell to NR FR2 cell.
+6.1.1.4.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover ms from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.4.2.
+6.1.1.4.2	Interruption time
+The interruption time is the time between end of the last TTI containin
+
+--------------------------------------------------------------------------------
+Result 29
+Search term: handover
+Approximate line: 430
+
+sObjectNRs configured by MN and SN have different SMTC, Trs is the periodicity of one of the SMTC which is up to UE implementation. If the UE is not provided SMTC configuration or measurement object on this frequency, the requirement in this clause is applied with Trs=5ms assuming the SSB transmission periodicity is 5ms. There is no requirement if the SSB transmission periodicity is not 5ms.
+In the interruption requirement a cell is known if it has been meeting the relevant cell identification requirement during the last 5 seconds otherwise it is unknown. Relevant cell identification requirements are described in Clause 9.2.5 for intra-frequency handover and Clause 9.3.4 for inter-frequency handover.
+6.1.1.4	NR FR2- NR FR2 Handover
+The requirements in this clause are applicable to both intra-frequency and inter-frequency handovers from NR FR2 cell to NR FR2 cell.
+6.1.1.4.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover ms from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.4.2.
+6.1.1.4.2	Interruption time
+The interruption time is the time between end of the last TTI containing the RRC command on the old PDSCH and the tim
+
+--------------------------------------------------------------------------------
+Result 30
+Search term: handover
+Approximate line: 431
+
+N have different SMTC, Trs is the periodicity of one of the SMTC which is up to UE implementation. If the UE is not provided SMTC configuration or measurement object on this frequency, the requirement in this clause is applied with Trs=5ms assuming the SSB transmission periodicity is 5ms. There is no requirement if the SSB transmission periodicity is not 5ms.
+In the interruption requirement a cell is known if it has been meeting the relevant cell identification requirement during the last 5 seconds otherwise it is unknown. Relevant cell identification requirements are described in Clause 9.2.5 for intra-frequency handover and Clause 9.3.4 for inter-frequency handover.
+6.1.1.4	NR FR2- NR FR2 Handover
+The requirements in this clause are applicable to both intra-frequency and inter-frequency handovers from NR FR2 cell to NR FR2 cell.
+6.1.1.4.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover ms from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.4.2.
+6.1.1.4.2	Interruption time
+The interruption time is the time between end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of t
+
+--------------------------------------------------------------------------------
+Result 31
+Search term: handover
+Approximate line: 432
+
+f the UE is not provided SMTC configuration or measurement object on this frequency, the requirement in this clause is applied with Trs=5ms assuming the SSB transmission periodicity is 5ms. There is no requirement if the SSB transmission periodicity is not 5ms.
+In the interruption requirement a cell is known if it has been meeting the relevant cell identification requirement during the last 5 seconds otherwise it is unknown. Relevant cell identification requirements are described in Clause 9.2.5 for intra-frequency handover and Clause 9.3.4 for inter-frequency handover.
+6.1.1.4	NR FR2- NR FR2 Handover
+The requirements in this clause are applicable to both intra-frequency and inter-frequency handovers from NR FR2 cell to NR FR2 cell.
+6.1.1.4.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover ms from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.4.2.
+6.1.1.4.2	Interruption time
+The interruption time is the time between end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excluding the RRC procedure delay.
+When intra-frequency or inter-frequency handover is
+
+--------------------------------------------------------------------------------
+Result 32
+Search term: handover
+Approximate line: 433
+
+ement object on this frequency, the requirement in this clause is applied with Trs=5ms assuming the SSB transmission periodicity is 5ms. There is no requirement if the SSB transmission periodicity is not 5ms.
+In the interruption requirement a cell is known if it has been meeting the relevant cell identification requirement during the last 5 seconds otherwise it is unknown. Relevant cell identification requirements are described in Clause 9.2.5 for intra-frequency handover and Clause 9.3.4 for inter-frequency handover.
+6.1.1.4	NR FR2- NR FR2 Handover
+The requirements in this clause are applicable to both intra-frequency and inter-frequency handovers from NR FR2 cell to NR FR2 cell.
+6.1.1.4.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover ms from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.4.2.
+6.1.1.4.2	Interruption time
+The interruption time is the time between end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excluding the RRC procedure delay.
+When intra-frequency or inter-frequency handover is commanded, the interruption time shall be less than
+
+--------------------------------------------------------------------------------
+Result 33
+Search term: handover
+Approximate line: 434
+
+use is applied with Trs=5ms assuming the SSB transmission periodicity is 5ms. There is no requirement if the SSB transmission periodicity is not 5ms.
+In the interruption requirement a cell is known if it has been meeting the relevant cell identification requirement during the last 5 seconds otherwise it is unknown. Relevant cell identification requirements are described in Clause 9.2.5 for intra-frequency handover and Clause 9.3.4 for inter-frequency handover.
+6.1.1.4	NR FR2- NR FR2 Handover
+The requirements in this clause are applicable to both intra-frequency and inter-frequency handovers from NR FR2 cell to NR FR2 cell.
+6.1.1.4.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover ms from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.4.2.
+6.1.1.4.2	Interruption time
+The interruption time is the time between end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excluding the RRC procedure delay.
+When intra-frequency or inter-frequency handover is commanded, the interruption time shall be less than Tinterrupt
+	Tinterrupt = Tsearch + TIU + Tprocessing + T∆ +
+
+--------------------------------------------------------------------------------
+Result 34
+Search term: handover
+Approximate line: 434
+
+ment if the SSB transmission periodicity is not 5ms.
+In the interruption requirement a cell is known if it has been meeting the relevant cell identification requirement during the last 5 seconds otherwise it is unknown. Relevant cell identification requirements are described in Clause 9.2.5 for intra-frequency handover and Clause 9.3.4 for inter-frequency handover.
+6.1.1.4	NR FR2- NR FR2 Handover
+The requirements in this clause are applicable to both intra-frequency and inter-frequency handovers from NR FR2 cell to NR FR2 cell.
+6.1.1.4.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover ms from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.4.2.
+6.1.1.4.2	Interruption time
+The interruption time is the time between end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excluding the RRC procedure delay.
+When intra-frequency or inter-frequency handover is commanded, the interruption time shall be less than Tinterrupt
+	Tinterrupt = Tsearch + TIU + Tprocessing + T∆ + Tmargin ms
+
+Where:
+	Tsearch is the time required to search the target cell when the handover com
+
+--------------------------------------------------------------------------------
+Result 35
+Search term: handover
+Approximate line: 436
+
+irement a cell is known if it has been meeting the relevant cell identification requirement during the last 5 seconds otherwise it is unknown. Relevant cell identification requirements are described in Clause 9.2.5 for intra-frequency handover and Clause 9.3.4 for inter-frequency handover.
+6.1.1.4	NR FR2- NR FR2 Handover
+The requirements in this clause are applicable to both intra-frequency and inter-frequency handovers from NR FR2 cell to NR FR2 cell.
+6.1.1.4.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover ms from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.4.2.
+6.1.1.4.2	Interruption time
+The interruption time is the time between end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excluding the RRC procedure delay.
+When intra-frequency or inter-frequency handover is commanded, the interruption time shall be less than Tinterrupt
+	Tinterrupt = Tsearch + TIU + Tprocessing + T∆ + Tmargin ms
+
+Where:
+	Tsearch is the time required to search the target cell when the handover command is received by the UE. If the target cell is a known cell, then Tsearch
+
+--------------------------------------------------------------------------------
+Result 36
+Search term: handover
+Approximate line: 439
+
+cy handovers from NR FR2 cell to NR FR2 cell.
+6.1.1.4.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover ms from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.4.2.
+6.1.1.4.2	Interruption time
+The interruption time is the time between end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excluding the RRC procedure delay.
+When intra-frequency or inter-frequency handover is commanded, the interruption time shall be less than Tinterrupt
+	Tinterrupt = Tsearch + TIU + Tprocessing + T∆ + Tmargin ms
+
+Where:
+	Tsearch is the time required to search the target cell when the handover command is received by the UE. If the target cell is a known cell, then Tsearch = 0 ms. If the target cell is an unknown intra-frequency cell and the target cell Es/Iot≥-2 dB, then Tsearch = 8* Trs  ms. If the target cell is an unknown inter-frequency cell and the target cell Es/Iot≥-2 dB, then Tsearch = 8*3* Trs  ms. Regardless of whether DRX is in use by the UE, Tsearch shall still be based on non-DRX target cell search times.
+	Tprocessing is time for UE processing. Tprocessing can be
+
+--------------------------------------------------------------------------------
+Result 37
+Search term: handover
+Approximate line: 443
+
+in Dhandover ms from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.4.2.
+6.1.1.4.2	Interruption time
+The interruption time is the time between end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excluding the RRC procedure delay.
+When intra-frequency or inter-frequency handover is commanded, the interruption time shall be less than Tinterrupt
+	Tinterrupt = Tsearch + TIU + Tprocessing + T∆ + Tmargin ms
+
+Where:
+	Tsearch is the time required to search the target cell when the handover command is received by the UE. If the target cell is a known cell, then Tsearch = 0 ms. If the target cell is an unknown intra-frequency cell and the target cell Es/Iot≥-2 dB, then Tsearch = 8* Trs  ms. If the target cell is an unknown inter-frequency cell and the target cell Es/Iot≥-2 dB, then Tsearch = 8*3* Trs  ms. Regardless of whether DRX is in use by the UE, Tsearch shall still be based on non-DRX target cell search times.
+	Tprocessing is time for UE processing. Tprocessing can be up to 20ms.
+	Tmargin is time for SSB post-processing. Tmargin can be up to 2ms.
+	T∆ is time for fine time tracking and acquiring full timing information of the target cell. T∆ = Trs for both known and unknow
+
+--------------------------------------------------------------------------------
+Result 38
+Search term: handover
+Approximate line: 448
+
+rch times.
+	Tprocessing is time for UE processing. Tprocessing can be up to 20ms.
+	Tmargin is time for SSB post-processing. Tmargin can be up to 2ms.
+	T∆ is time for fine time tracking and acquiring full timing information of the target cell. T∆ = Trs for both known and unknown target cell.
+	TIU is the interruption uncertainty in acquiring the first available PRACH occasion in the new cell. TIU can be up to the summation of SSB to PRACH occasion association period and 10 ms. SSB to PRACH occasion associated period is defined in the table 8.1-1 of TS 38.213 [3].
+Trs is the SMTC periodicity of the target NR cell if the UE has been provided with an SMTC configuration for the target cell in the handover command, otherwise Trs is the SMTC configured in the measObjectNR having the same SSB frequency and subcarrier spacing. If such measObjectNRs configured by MN and SN have different SMTC, Trs is the periodicity of one of the SMTC which is up to UE implementation. If the UE is not provided SMTC configuration or measurement object on this frequency, the requirement in this clause is applied with Trs=5ms assuming the SSB transmission periodicity is 5ms. There is no requirement if the SSB transmission periodicity is not 5ms. If the UE has been provided with higher layer in TS 38.331 [2] signaling of smtc2 prior to the handover command, Trs follows smtc1 or smtc2 according to the physical cell ID
+
+--------------------------------------------------------------------------------
+Result 39
+Search term: handover
+Approximate line: 448
+
+s been provided with an SMTC configuration for the target cell in the handover command, otherwise Trs is the SMTC configured in the measObjectNR having the same SSB frequency and subcarrier spacing. If such measObjectNRs configured by MN and SN have different SMTC, Trs is the periodicity of one of the SMTC which is up to UE implementation. If the UE is not provided SMTC configuration or measurement object on this frequency, the requirement in this clause is applied with Trs=5ms assuming the SSB transmission periodicity is 5ms. There is no requirement if the SSB transmission periodicity is not 5ms. If the UE has been provided with higher layer in TS 38.331 [2] signaling of smtc2 prior to the handover command, Trs follows smtc1 or smtc2 according to the physical cell ID of the target cell.
+In FR2, the target cell is known if it has been meeting the following conditions:
+-	During the last 5 seconds before the reception of the handover command:
+-	the UE has sent a valid measurement report for the target cell and
+-	One of the SSBs measured from the NR target cell being configured remains detectable according to the cell identification conditions specified in clause 9.2 for intra-frequency cell and in clause 9.3 for inter-frequency cell,
+-	One of the SSBs measured from the target cell also remains detectable during the handover delay according to the cell identification conditions specified
+
+--------------------------------------------------------------------------------
+Result 40
+Search term: handover
+Approximate line: 450
+
+and SN have different SMTC, Trs is the periodicity of one of the SMTC which is up to UE implementation. If the UE is not provided SMTC configuration or measurement object on this frequency, the requirement in this clause is applied with Trs=5ms assuming the SSB transmission periodicity is 5ms. There is no requirement if the SSB transmission periodicity is not 5ms. If the UE has been provided with higher layer in TS 38.331 [2] signaling of smtc2 prior to the handover command, Trs follows smtc1 or smtc2 according to the physical cell ID of the target cell.
+In FR2, the target cell is known if it has been meeting the following conditions:
+-	During the last 5 seconds before the reception of the handover command:
+-	the UE has sent a valid measurement report for the target cell and
+-	One of the SSBs measured from the NR target cell being configured remains detectable according to the cell identification conditions specified in clause 9.2 for intra-frequency cell and in clause 9.3 for inter-frequency cell,
+-	One of the SSBs measured from the target cell also remains detectable during the handover delay according to the cell identification conditions specified in clause 9.2 for intra-frequency cell and in clause 9.3 for inter-frequency cell.
+otherwise it is unknown.
+6.1.1.5	NR FR1- NR FR2 Handover
+The requirements in this clause are applicable to inter-frequency handovers from NR FR1 cell to N
+
+--------------------------------------------------------------------------------
+Result 41
+Search term: handover
+Approximate line: 453
+
+th higher layer in TS 38.331 [2] signaling of smtc2 prior to the handover command, Trs follows smtc1 or smtc2 according to the physical cell ID of the target cell.
+In FR2, the target cell is known if it has been meeting the following conditions:
+-	During the last 5 seconds before the reception of the handover command:
+-	the UE has sent a valid measurement report for the target cell and
+-	One of the SSBs measured from the NR target cell being configured remains detectable according to the cell identification conditions specified in clause 9.2 for intra-frequency cell and in clause 9.3 for inter-frequency cell,
+-	One of the SSBs measured from the target cell also remains detectable during the handover delay according to the cell identification conditions specified in clause 9.2 for intra-frequency cell and in clause 9.3 for inter-frequency cell.
+otherwise it is unknown.
+6.1.1.5	NR FR1- NR FR2 Handover
+The requirements in this clause are applicable to inter-frequency handovers from NR FR1 cell to NR FR2 cell.
+6.1.1.5.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover ms from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.5.2.
+
+--------------------------------------------------------------------------------
+Result 42
+Search term: handover
+Approximate line: 455
+
+as been meeting the following conditions:
+-	During the last 5 seconds before the reception of the handover command:
+-	the UE has sent a valid measurement report for the target cell and
+-	One of the SSBs measured from the NR target cell being configured remains detectable according to the cell identification conditions specified in clause 9.2 for intra-frequency cell and in clause 9.3 for inter-frequency cell,
+-	One of the SSBs measured from the target cell also remains detectable during the handover delay according to the cell identification conditions specified in clause 9.2 for intra-frequency cell and in clause 9.3 for inter-frequency cell.
+otherwise it is unknown.
+6.1.1.5	NR FR1- NR FR2 Handover
+The requirements in this clause are applicable to inter-frequency handovers from NR FR1 cell to NR FR2 cell.
+6.1.1.5.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover ms from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.5.2.
+6.1.1.5.2	Interruption time
+The interruption time is the time between end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excluding t
+
+--------------------------------------------------------------------------------
+Result 43
+Search term: handover
+Approximate line: 456
+
+e the reception of the handover command:
+-	the UE has sent a valid measurement report for the target cell and
+-	One of the SSBs measured from the NR target cell being configured remains detectable according to the cell identification conditions specified in clause 9.2 for intra-frequency cell and in clause 9.3 for inter-frequency cell,
+-	One of the SSBs measured from the target cell also remains detectable during the handover delay according to the cell identification conditions specified in clause 9.2 for intra-frequency cell and in clause 9.3 for inter-frequency cell.
+otherwise it is unknown.
+6.1.1.5	NR FR1- NR FR2 Handover
+The requirements in this clause are applicable to inter-frequency handovers from NR FR1 cell to NR FR2 cell.
+6.1.1.5.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover ms from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.5.2.
+6.1.1.5.2	Interruption time
+The interruption time is the time between end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excluding the RRC procedure delay.
+When inter-frequency handover is commanded, the int
+
+--------------------------------------------------------------------------------
+Result 44
+Search term: handover
+Approximate line: 457
+
+sent a valid measurement report for the target cell and
+-	One of the SSBs measured from the NR target cell being configured remains detectable according to the cell identification conditions specified in clause 9.2 for intra-frequency cell and in clause 9.3 for inter-frequency cell,
+-	One of the SSBs measured from the target cell also remains detectable during the handover delay according to the cell identification conditions specified in clause 9.2 for intra-frequency cell and in clause 9.3 for inter-frequency cell.
+otherwise it is unknown.
+6.1.1.5	NR FR1- NR FR2 Handover
+The requirements in this clause are applicable to inter-frequency handovers from NR FR1 cell to NR FR2 cell.
+6.1.1.5.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover ms from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.5.2.
+6.1.1.5.2	Interruption time
+The interruption time is the time between end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excluding the RRC procedure delay.
+When inter-frequency handover is commanded, the interruption time shall be less than Tinterrupt
+	Tinterr
+
+--------------------------------------------------------------------------------
+Result 45
+Search term: handover
+Approximate line: 458
+
+One of the SSBs measured from the NR target cell being configured remains detectable according to the cell identification conditions specified in clause 9.2 for intra-frequency cell and in clause 9.3 for inter-frequency cell,
+-	One of the SSBs measured from the target cell also remains detectable during the handover delay according to the cell identification conditions specified in clause 9.2 for intra-frequency cell and in clause 9.3 for inter-frequency cell.
+otherwise it is unknown.
+6.1.1.5	NR FR1- NR FR2 Handover
+The requirements in this clause are applicable to inter-frequency handovers from NR FR1 cell to NR FR2 cell.
+6.1.1.5.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover ms from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.5.2.
+6.1.1.5.2	Interruption time
+The interruption time is the time between end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excluding the RRC procedure delay.
+When inter-frequency handover is commanded, the interruption time shall be less than Tinterrupt
+	Tinterrupt = Tsearch + TIU + Tprocessing + T∆ + Tmargin ms
+
+Where:
+
+--------------------------------------------------------------------------------
+Result 46
+Search term: handover
+Approximate line: 458
+
+the cell identification conditions specified in clause 9.2 for intra-frequency cell and in clause 9.3 for inter-frequency cell,
+-	One of the SSBs measured from the target cell also remains detectable during the handover delay according to the cell identification conditions specified in clause 9.2 for intra-frequency cell and in clause 9.3 for inter-frequency cell.
+otherwise it is unknown.
+6.1.1.5	NR FR1- NR FR2 Handover
+The requirements in this clause are applicable to inter-frequency handovers from NR FR1 cell to NR FR2 cell.
+6.1.1.5.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover ms from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.5.2.
+6.1.1.5.2	Interruption time
+The interruption time is the time between end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excluding the RRC procedure delay.
+When inter-frequency handover is commanded, the interruption time shall be less than Tinterrupt
+	Tinterrupt = Tsearch + TIU + Tprocessing + T∆ + Tmargin ms
+
+Where:
+	Tsearch is the time required to search the target cell when the handover command is received by
+
+--------------------------------------------------------------------------------
+Result 47
+Search term: handover
+Approximate line: 460
+
+cy cell and in clause 9.3 for inter-frequency cell,
+-	One of the SSBs measured from the target cell also remains detectable during the handover delay according to the cell identification conditions specified in clause 9.2 for intra-frequency cell and in clause 9.3 for inter-frequency cell.
+otherwise it is unknown.
+6.1.1.5	NR FR1- NR FR2 Handover
+The requirements in this clause are applicable to inter-frequency handovers from NR FR1 cell to NR FR2 cell.
+6.1.1.5.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover ms from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.5.2.
+6.1.1.5.2	Interruption time
+The interruption time is the time between end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excluding the RRC procedure delay.
+When inter-frequency handover is commanded, the interruption time shall be less than Tinterrupt
+	Tinterrupt = Tsearch + TIU + Tprocessing + T∆ + Tmargin ms
+
+Where:
+	Tsearch is the time required to search the target cell when the handover command is received by the UE. If the target cell is a known cell, then Tsearch = 0 ms. . If the ta
+
+--------------------------------------------------------------------------------
+Result 48
+Search term: handover
+Approximate line: 463
+
+le to inter-frequency handovers from NR FR1 cell to NR FR2 cell.
+6.1.1.5.1	Handover delay
+When the UE receives a RRC message implying handover the UE shall be ready to start the transmission of the new uplink PRACH channel within Dhandover ms from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.5.2.
+6.1.1.5.2	Interruption time
+The interruption time is the time between end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excluding the RRC procedure delay.
+When inter-frequency handover is commanded, the interruption time shall be less than Tinterrupt
+	Tinterrupt = Tsearch + TIU + Tprocessing + T∆ + Tmargin ms
+
+Where:
+	Tsearch is the time required to search the target cell when the handover command is received by the UE. If the target cell is a known cell, then Tsearch = 0 ms. . If the target cell is an unknown inter-frequency cell and the target cell Es/Iot≥-2 dB, then Tsearch = 8*3* Trs ms. Regardless of whether DRX is in use by the UE, Tsearch shall still be based on non-DRX target cell search times.
+	Tprocessing is time for UE processing. Tprocessing can be up 40ms.
+	Tmargin is time for SSB post-processing. Tmargin can be up to 2ms.
+	T∆ is time for fine time tracking a
+
+--------------------------------------------------------------------------------
+Result 49
+Search term: handover
+Approximate line: 467
+
+PRACH channel within Dhandover ms from the end of the last TTI containing the RRC command.
+Where:
+Dhandover equals the applicable RRC procedure delay defined in clause 12 in TS 38.331 [2] plus the interruption time stated in clause 6.1.1.5.2.
+6.1.1.5.2	Interruption time
+The interruption time is the time between end of the last TTI containing the RRC command on the old PDSCH and the time the UE starts transmission of the new PRACH, excluding the RRC procedure delay.
+When inter-frequency handover is commanded, the interruption time shall be less than Tinterrupt
+	Tinterrupt = Tsearch + TIU + Tprocessing + T∆ + Tmargin ms
+
+Where:
+	Tsearch is the time required to search the target cell when the handover command is received by the UE. If the target cell is a known cell, then Tsearch = 0 ms. . If the target cell is an unknown inter-frequency cell and the target cell Es/Iot≥-2 dB, then Tsearch = 8*3* Trs ms. Regardless of whether DRX is in use by the UE, Tsearch shall still be based on non-DRX target cell search times.
+	Tprocessing is time for UE processing. Tprocessing can be up 40ms.
+	Tmargin is time for SSB post-processing. Tmargin can be up to 2ms.
+	T∆ is time for fine time tracking and acquiring full timing information of the target cell. T∆ = Trs for both known and unknown target cell.
+	TIU is the interruption uncertainty in acquiring the first available PRACH occasion in the new cell.
+
+--------------------------------------------------------------------------------
+Result 50
+Search term: handover
+Approximate line: 472
+
+search times.
+	Tprocessing is time for UE processing. Tprocessing can be up 40ms.
+	Tmargin is time for SSB post-processing. Tmargin can be up to 2ms.
+	T∆ is time for fine time tracking and acquiring full timing information of the target cell. T∆ = Trs for both known and unknown target cell.
+	TIU is the interruption uncertainty in acquiring the first available PRACH occasion in the new cell. TIU can be up to the summation of SSB to PRACH occasion association period and 10 ms. SSB to PRACH occasion associated period is defined in the table 8.1-1 of TS 38.213 [3].
+Trs is the SMTC periodicity of the target NR cell if the UE has been provided with an SMTC configuration for the target cell in the handover command, otherwise Trs is the SMTC configured in the measObjectNR having the same SSB frequency and subcarrier spacing. If such measObjectNRs configured by MN and SN have different SMTC, Trs is the periodicity of one of the SMTC which is up to UE implementation. If the UE is not provided SMTC configuration or measurement object on this frequency, the requirement in this clause is applied with Trs=5ms assuming the SSB transmission periodicity is 5ms. There is no requirement if the SSB transmission periodicity is not 5ms.
+In FR2, the target cell is known if it has been meeting the following conditions:
+-	During the last 5 seconds before the reception of the handover command:
+-	the UE has sent
+
+--------------------------------------------------------------------------------
+Result 51
+Search term: handover
+Approximate line: 474
+
+for the target cell in the handover command, otherwise Trs is the SMTC configured in the measObjectNR having the same SSB frequency and subcarrier spacing. If such measObjectNRs configured by MN and SN have different SMTC, Trs is the periodicity of one of the SMTC which is up to UE implementation. If the UE is not provided SMTC configuration or measurement object on this frequency, the requirement in this clause is applied with Trs=5ms assuming the SSB transmission periodicity is 5ms. There is no requirement if the SSB transmission periodicity is not 5ms.
+In FR2, the target cell is known if it has been meeting the following conditions:
+-	During the last 5 seconds before the reception of the handover command:
+-	the UE has sent a valid measurement report for the target cell and
+-	One of the SSBs measured from the NR target cell being configured remains detectable according to the cell identification conditions specified in clause 9.3,
+-	One of the SSBs measured from the target cell also remains detectable during the handover delay according to the cell identification conditions specified in clause 9.3.
+otherwise it is unknown.
+6.1.2	NR Handover to other RATs
+6.1.2.1	NR – E-UTRAN Handover
+6.1.2.1.1	Introduction
+The purpose of inter-RAT handover from NR to E-UTRAN is to change the radio access mode of PCell from NR to E-UTRAN. The handover procedure is initiated from NR with a RRC message
+
+--------------------------------------------------------------------------------
+Result 52
+Search term: handover
+Approximate line: 477
+
+configuration or measurement object on this frequency, the requirement in this clause is applied with Trs=5ms assuming the SSB transmission periodicity is 5ms. There is no requirement if the SSB transmission periodicity is not 5ms.
+In FR2, the target cell is known if it has been meeting the following conditions:
+-	During the last 5 seconds before the reception of the handover command:
+-	the UE has sent a valid measurement report for the target cell and
+-	One of the SSBs measured from the NR target cell being configured remains detectable according to the cell identification conditions specified in clause 9.3,
+-	One of the SSBs measured from the target cell also remains detectable during the handover delay according to the cell identification conditions specified in clause 9.3.
+otherwise it is unknown.
+6.1.2	NR Handover to other RATs
+6.1.2.1	NR – E-UTRAN Handover
+6.1.2.1.1	Introduction
+The purpose of inter-RAT handover from NR to E-UTRAN is to change the radio access mode of PCell from NR to E-UTRAN. The handover procedure is initiated from NR with a RRC message that implies a handover as described in TS 38.331 [2]. The requirements in this clause are applicable to SA NR, NE-DC and NR-DC.
+If PRACH occasion is configured in radio frames with even SFN and the relative time difference between radio frame i in the current cell and the target cell is not less than 153600⋅Ts, the longer hando
+
+--------------------------------------------------------------------------------
+Result 53
+Search term: handover
+Approximate line: 479
+
+SSB transmission periodicity is 5ms. There is no requirement if the SSB transmission periodicity is not 5ms.
+In FR2, the target cell is known if it has been meeting the following conditions:
+-	During the last 5 seconds before the reception of the handover command:
+-	the UE has sent a valid measurement report for the target cell and
+-	One of the SSBs measured from the NR target cell being configured remains detectable according to the cell identification conditions specified in clause 9.3,
+-	One of the SSBs measured from the target cell also remains detectable during the handover delay according to the cell identification conditions specified in clause 9.3.
+otherwise it is unknown.
+6.1.2	NR Handover to other RATs
+6.1.2.1	NR – E-UTRAN Handover
+6.1.2.1.1	Introduction
+The purpose of inter-RAT handover from NR to E-UTRAN is to change the radio access mode of PCell from NR to E-UTRAN. The handover procedure is initiated from NR with a RRC message that implies a handover as described in TS 38.331 [2]. The requirements in this clause are applicable to SA NR, NE-DC and NR-DC.
+If PRACH occasion is configured in radio frames with even SFN and the relative time difference between radio frame i in the current cell and the target cell is not less than 153600⋅Ts, the longer handover delay is expected.
+6.1.2.1.2	Handover delay
+When the UE receives a RRC message implying handover to E-UTRAN the UE sha
+
+--------------------------------------------------------------------------------
+Result 54
+Search term: handover
+Approximate line: 480
+
+is no requirement if the SSB transmission periodicity is not 5ms.
+In FR2, the target cell is known if it has been meeting the following conditions:
+-	During the last 5 seconds before the reception of the handover command:
+-	the UE has sent a valid measurement report for the target cell and
+-	One of the SSBs measured from the NR target cell being configured remains detectable according to the cell identification conditions specified in clause 9.3,
+-	One of the SSBs measured from the target cell also remains detectable during the handover delay according to the cell identification conditions specified in clause 9.3.
+otherwise it is unknown.
+6.1.2	NR Handover to other RATs
+6.1.2.1	NR – E-UTRAN Handover
+6.1.2.1.1	Introduction
+The purpose of inter-RAT handover from NR to E-UTRAN is to change the radio access mode of PCell from NR to E-UTRAN. The handover procedure is initiated from NR with a RRC message that implies a handover as described in TS 38.331 [2]. The requirements in this clause are applicable to SA NR, NE-DC and NR-DC.
+If PRACH occasion is configured in radio frames with even SFN and the relative time difference between radio frame i in the current cell and the target cell is not less than 153600⋅Ts, the longer handover delay is expected.
+6.1.2.1.2	Handover delay
+When the UE receives a RRC message implying handover to E-UTRAN the UE shall be ready to start the transmission of the
+
+--------------------------------------------------------------------------------
+Result 55
+Search term: handover
+Approximate line: 482
+
+not 5ms.
+In FR2, the target cell is known if it has been meeting the following conditions:
+-	During the last 5 seconds before the reception of the handover command:
+-	the UE has sent a valid measurement report for the target cell and
+-	One of the SSBs measured from the NR target cell being configured remains detectable according to the cell identification conditions specified in clause 9.3,
+-	One of the SSBs measured from the target cell also remains detectable during the handover delay according to the cell identification conditions specified in clause 9.3.
+otherwise it is unknown.
+6.1.2	NR Handover to other RATs
+6.1.2.1	NR – E-UTRAN Handover
+6.1.2.1.1	Introduction
+The purpose of inter-RAT handover from NR to E-UTRAN is to change the radio access mode of PCell from NR to E-UTRAN. The handover procedure is initiated from NR with a RRC message that implies a handover as described in TS 38.331 [2]. The requirements in this clause are applicable to SA NR, NE-DC and NR-DC.
+If PRACH occasion is configured in radio frames with even SFN and the relative time difference between radio frame i in the current cell and the target cell is not less than 153600⋅Ts, the longer handover delay is expected.
+6.1.2.1.2	Handover delay
+When the UE receives a RRC message implying handover to E-UTRAN the UE shall be ready to start the transmission of the uplink PRACH channel in E-UTRA within Dhandover ms from
+
+--------------------------------------------------------------------------------
+Result 56
+Search term: handover
+Approximate line: 482
+
+ing the last 5 seconds before the reception of the handover command:
+-	the UE has sent a valid measurement report for the target cell and
+-	One of the SSBs measured from the NR target cell being configured remains detectable according to the cell identification conditions specified in clause 9.3,
+-	One of the SSBs measured from the target cell also remains detectable during the handover delay according to the cell identification conditions specified in clause 9.3.
+otherwise it is unknown.
+6.1.2	NR Handover to other RATs
+6.1.2.1	NR – E-UTRAN Handover
+6.1.2.1.1	Introduction
+The purpose of inter-RAT handover from NR to E-UTRAN is to change the radio access mode of PCell from NR to E-UTRAN. The handover procedure is initiated from NR with a RRC message that implies a handover as described in TS 38.331 [2]. The requirements in this clause are applicable to SA NR, NE-DC and NR-DC.
+If PRACH occasion is configured in radio frames with even SFN and the relative time difference between radio frame i in the current cell and the target cell is not less than 153600⋅Ts, the longer handover delay is expected.
+6.1.2.1.2	Handover delay
+When the UE receives a RRC message implying handover to E-UTRAN the UE shall be ready to start the transmission of the uplink PRACH channel in E-UTRA within Dhandover ms from the end of the last TTI containing the RRC command. Dhandover is defined as
+Dhandover = TRRC_pro
+
+--------------------------------------------------------------------------------
+Result 57
+Search term: handover
+Approximate line: 482
+
+UE has sent a valid measurement report for the target cell and
+-	One of the SSBs measured from the NR target cell being configured remains detectable according to the cell identification conditions specified in clause 9.3,
+-	One of the SSBs measured from the target cell also remains detectable during the handover delay according to the cell identification conditions specified in clause 9.3.
+otherwise it is unknown.
+6.1.2	NR Handover to other RATs
+6.1.2.1	NR – E-UTRAN Handover
+6.1.2.1.1	Introduction
+The purpose of inter-RAT handover from NR to E-UTRAN is to change the radio access mode of PCell from NR to E-UTRAN. The handover procedure is initiated from NR with a RRC message that implies a handover as described in TS 38.331 [2]. The requirements in this clause are applicable to SA NR, NE-DC and NR-DC.
+If PRACH occasion is configured in radio frames with even SFN and the relative time difference between radio frame i in the current cell and the target cell is not less than 153600⋅Ts, the longer handover delay is expected.
+6.1.2.1.2	Handover delay
+When the UE receives a RRC message implying handover to E-UTRAN the UE shall be ready to start the transmission of the uplink PRACH channel in E-UTRA within Dhandover ms from the end of the last TTI containing the RRC command. Dhandover is defined as
+Dhandover = TRRC_procedure_delay + Tinterrupt
+Where:
+TRRC_procedure_delay: it is the RRC proce
+
+--------------------------------------------------------------------------------
+Result 58
+Search term: handover
+Approximate line: 483
+
+dover delay according to the cell identification conditions specified in clause 9.3.
+otherwise it is unknown.
+6.1.2	NR Handover to other RATs
+6.1.2.1	NR – E-UTRAN Handover
+6.1.2.1.1	Introduction
+The purpose of inter-RAT handover from NR to E-UTRAN is to change the radio access mode of PCell from NR to E-UTRAN. The handover procedure is initiated from NR with a RRC message that implies a handover as described in TS 38.331 [2]. The requirements in this clause are applicable to SA NR, NE-DC and NR-DC.
+If PRACH occasion is configured in radio frames with even SFN and the relative time difference between radio frame i in the current cell and the target cell is not less than 153600⋅Ts, the longer handover delay is expected.
+6.1.2.1.2	Handover delay
+When the UE receives a RRC message implying handover to E-UTRAN the UE shall be ready to start the transmission of the uplink PRACH channel in E-UTRA within Dhandover ms from the end of the last TTI containing the RRC command. Dhandover is defined as
+Dhandover = TRRC_procedure_delay + Tinterrupt
+Where:
+TRRC_procedure_delay: it is the RRC procedure delay, which is 50ms
+Tinterrupt: it is the time between end of the last TTI containing the RRC command on the NR PDSCH and the time the UE starts transmission of the PRACH in E-UTRAN, excluding TRRC_procedure_delay. Tinterrupt is defined in clause 6.1.2.1.3.
+6.1.2.1.3	Interruption time
+When the inter-RAT
+
+--------------------------------------------------------------------------------
+Result 59
+Search term: handover
+Approximate line: 484
+
+tification conditions specified in clause 9.3.
+otherwise it is unknown.
+6.1.2	NR Handover to other RATs
+6.1.2.1	NR – E-UTRAN Handover
+6.1.2.1.1	Introduction
+The purpose of inter-RAT handover from NR to E-UTRAN is to change the radio access mode of PCell from NR to E-UTRAN. The handover procedure is initiated from NR with a RRC message that implies a handover as described in TS 38.331 [2]. The requirements in this clause are applicable to SA NR, NE-DC and NR-DC.
+If PRACH occasion is configured in radio frames with even SFN and the relative time difference between radio frame i in the current cell and the target cell is not less than 153600⋅Ts, the longer handover delay is expected.
+6.1.2.1.2	Handover delay
+When the UE receives a RRC message implying handover to E-UTRAN the UE shall be ready to start the transmission of the uplink PRACH channel in E-UTRA within Dhandover ms from the end of the last TTI containing the RRC command. Dhandover is defined as
+Dhandover = TRRC_procedure_delay + Tinterrupt
+Where:
+TRRC_procedure_delay: it is the RRC procedure delay, which is 50ms
+Tinterrupt: it is the time between end of the last TTI containing the RRC command on the NR PDSCH and the time the UE starts transmission of the PRACH in E-UTRAN, excluding TRRC_procedure_delay. Tinterrupt is defined in clause 6.1.2.1.3.
+6.1.2.1.3	Interruption time
+When the inter-RAT handover to E-UTRAN is commanded, the
+
+--------------------------------------------------------------------------------
+Result 60
+Search term: handover
+Approximate line: 485
+
+is unknown.
+6.1.2	NR Handover to other RATs
+6.1.2.1	NR – E-UTRAN Handover
+6.1.2.1.1	Introduction
+The purpose of inter-RAT handover from NR to E-UTRAN is to change the radio access mode of PCell from NR to E-UTRAN. The handover procedure is initiated from NR with a RRC message that implies a handover as described in TS 38.331 [2]. The requirements in this clause are applicable to SA NR, NE-DC and NR-DC.
+If PRACH occasion is configured in radio frames with even SFN and the relative time difference between radio frame i in the current cell and the target cell is not less than 153600⋅Ts, the longer handover delay is expected.
+6.1.2.1.2	Handover delay
+When the UE receives a RRC message implying handover to E-UTRAN the UE shall be ready to start the transmission of the uplink PRACH channel in E-UTRA within Dhandover ms from the end of the last TTI containing the RRC command. Dhandover is defined as
+Dhandover = TRRC_procedure_delay + Tinterrupt
+Where:
+TRRC_procedure_delay: it is the RRC procedure delay, which is 50ms
+Tinterrupt: it is the time between end of the last TTI containing the RRC command on the NR PDSCH and the time the UE starts transmission of the PRACH in E-UTRAN, excluding TRRC_procedure_delay. Tinterrupt is defined in clause 6.1.2.1.3.
+6.1.2.1.3	Interruption time
+When the inter-RAT handover to E-UTRAN is commanded, the interruption time shall be less than Tinterrupt
+	Tinterrup
+
+--------------------------------------------------------------------------------
+Result 61
+Search term: handover
+Approximate line: 485
+
+nter-RAT handover from NR to E-UTRAN is to change the radio access mode of PCell from NR to E-UTRAN. The handover procedure is initiated from NR with a RRC message that implies a handover as described in TS 38.331 [2]. The requirements in this clause are applicable to SA NR, NE-DC and NR-DC.
+If PRACH occasion is configured in radio frames with even SFN and the relative time difference between radio frame i in the current cell and the target cell is not less than 153600⋅Ts, the longer handover delay is expected.
+6.1.2.1.2	Handover delay
+When the UE receives a RRC message implying handover to E-UTRAN the UE shall be ready to start the transmission of the uplink PRACH channel in E-UTRA within Dhandover ms from the end of the last TTI containing the RRC command. Dhandover is defined as
+Dhandover = TRRC_procedure_delay + Tinterrupt
+Where:
+TRRC_procedure_delay: it is the RRC procedure delay, which is 50ms
+Tinterrupt: it is the time between end of the last TTI containing the RRC command on the NR PDSCH and the time the UE starts transmission of the PRACH in E-UTRAN, excluding TRRC_procedure_delay. Tinterrupt is defined in clause 6.1.2.1.3.
+6.1.2.1.3	Interruption time
+When the inter-RAT handover to E-UTRAN is commanded, the interruption time shall be less than Tinterrupt
+	Tinterrupt =Tsearch + TIU + 20 ms
+Where:
+	Tsearch is the time required to search the target cell when the target cell is no
+
+--------------------------------------------------------------------------------
+Result 62
+Search term: handover
+Approximate line: 485
+
+e of PCell from NR to E-UTRAN. The handover procedure is initiated from NR with a RRC message that implies a handover as described in TS 38.331 [2]. The requirements in this clause are applicable to SA NR, NE-DC and NR-DC.
+If PRACH occasion is configured in radio frames with even SFN and the relative time difference between radio frame i in the current cell and the target cell is not less than 153600⋅Ts, the longer handover delay is expected.
+6.1.2.1.2	Handover delay
+When the UE receives a RRC message implying handover to E-UTRAN the UE shall be ready to start the transmission of the uplink PRACH channel in E-UTRA within Dhandover ms from the end of the last TTI containing the RRC command. Dhandover is defined as
+Dhandover = TRRC_procedure_delay + Tinterrupt
+Where:
+TRRC_procedure_delay: it is the RRC procedure delay, which is 50ms
+Tinterrupt: it is the time between end of the last TTI containing the RRC command on the NR PDSCH and the time the UE starts transmission of the PRACH in E-UTRAN, excluding TRRC_procedure_delay. Tinterrupt is defined in clause 6.1.2.1.3.
+6.1.2.1.3	Interruption time
+When the inter-RAT handover to E-UTRAN is commanded, the interruption time shall be less than Tinterrupt
+	Tinterrupt =Tsearch + TIU + 20 ms
+Where:
+	Tsearch is the time required to search the target cell when the target cell is not already known when the handover command is received by the UE. If th
+
+--------------------------------------------------------------------------------
+Result 63
+Search term: handover
+Approximate line: 486
+
+UTRAN. The handover procedure is initiated from NR with a RRC message that implies a handover as described in TS 38.331 [2]. The requirements in this clause are applicable to SA NR, NE-DC and NR-DC.
+If PRACH occasion is configured in radio frames with even SFN and the relative time difference between radio frame i in the current cell and the target cell is not less than 153600⋅Ts, the longer handover delay is expected.
+6.1.2.1.2	Handover delay
+When the UE receives a RRC message implying handover to E-UTRAN the UE shall be ready to start the transmission of the uplink PRACH channel in E-UTRA within Dhandover ms from the end of the last TTI containing the RRC command. Dhandover is defined as
+Dhandover = TRRC_procedure_delay + Tinterrupt
+Where:
+TRRC_procedure_delay: it is the RRC procedure delay, which is 50ms
+Tinterrupt: it is the time between end of the last TTI containing the RRC command on the NR PDSCH and the time the UE starts transmission of the PRACH in E-UTRAN, excluding TRRC_procedure_delay. Tinterrupt is defined in clause 6.1.2.1.3.
+6.1.2.1.3	Interruption time
+When the inter-RAT handover to E-UTRAN is commanded, the interruption time shall be less than Tinterrupt
+	Tinterrupt =Tsearch + TIU + 20 ms
+Where:
+	Tsearch is the time required to search the target cell when the target cell is not already known when the handover command is received by the UE. If the target cell is known,
+
+--------------------------------------------------------------------------------
+Result 64
+Search term: handover
+Approximate line: 491
+
+delay is expected.
+6.1.2.1.2	Handover delay
+When the UE receives a RRC message implying handover to E-UTRAN the UE shall be ready to start the transmission of the uplink PRACH channel in E-UTRA within Dhandover ms from the end of the last TTI containing the RRC command. Dhandover is defined as
+Dhandover = TRRC_procedure_delay + Tinterrupt
+Where:
+TRRC_procedure_delay: it is the RRC procedure delay, which is 50ms
+Tinterrupt: it is the time between end of the last TTI containing the RRC command on the NR PDSCH and the time the UE starts transmission of the PRACH in E-UTRAN, excluding TRRC_procedure_delay. Tinterrupt is defined in clause 6.1.2.1.3.
+6.1.2.1.3	Interruption time
+When the inter-RAT handover to E-UTRAN is commanded, the interruption time shall be less than Tinterrupt
+	Tinterrupt =Tsearch + TIU + 20 ms
+Where:
+	Tsearch is the time required to search the target cell when the target cell is not already known when the handover command is received by the UE. If the target cell is known, then Tsearch = 0 ms. If the target cell is unknown and signal quality is sufficient for successful cell detection on the first attempt, then Tsearch = 80 ms. Regardless of whether DRX is in use by the UE, Tsearch shall still be based on non-DRX target cell search times.
+	TIU is the interruption uncertainty in acquiring the first available PRACH occasion in the new cell. TIU can be up to 30 ms.
+NOTE:	T
+
+--------------------------------------------------------------------------------
+Result 65
+Search term: handover
+Approximate line: 494
+
+ast TTI containing the RRC command. Dhandover is defined as
+Dhandover = TRRC_procedure_delay + Tinterrupt
+Where:
+TRRC_procedure_delay: it is the RRC procedure delay, which is 50ms
+Tinterrupt: it is the time between end of the last TTI containing the RRC command on the NR PDSCH and the time the UE starts transmission of the PRACH in E-UTRAN, excluding TRRC_procedure_delay. Tinterrupt is defined in clause 6.1.2.1.3.
+6.1.2.1.3	Interruption time
+When the inter-RAT handover to E-UTRAN is commanded, the interruption time shall be less than Tinterrupt
+	Tinterrupt =Tsearch + TIU + 20 ms
+Where:
+	Tsearch is the time required to search the target cell when the target cell is not already known when the handover command is received by the UE. If the target cell is known, then Tsearch = 0 ms. If the target cell is unknown and signal quality is sufficient for successful cell detection on the first attempt, then Tsearch = 80 ms. Regardless of whether DRX is in use by the UE, Tsearch shall still be based on non-DRX target cell search times.
+	TIU is the interruption uncertainty in acquiring the first available PRACH occasion in the new cell. TIU can be up to 30 ms.
+NOTE:	The actual value of TIU shall depend upon the PRACH configuration used in the target cell.
+	In the interruption requirement a cell is known if it has been meeting the relevant cell identification requirement during the last 5 seconds ot
+
+--------------------------------------------------------------------------------
+Result 66
+Search term: handover
+Approximate line: 501
+
+to 30 ms.
+NOTE:	The actual value of TIU shall depend upon the PRACH configuration used in the target cell.
+	In the interruption requirement a cell is known if it has been meeting the relevant cell identification requirement during the last 5 seconds otherwise it is unknown. Relevant E-UTRAN cell identification requirements are described in clause 9.4.1.
+6.2	RRC Connection Mobility Control
+6.2.1	SA: RRC Re-establishment
+6.2.1.1	Introduction
+This clause contains requirements on the UE regarding RRC connection re-establishment procedure. RRC connection re-establishment is initiated when a UE in RRC_CONNECTED state loses RRC connection due to any of failure cases, including radio link failure, handover failure, and RRC connection reconfiguration failure. The RRC connection re-establishment procedure is specified in clause 5.3.7 of TS 38.331 [2].
+The requirements in this clause are applicable for RRC connection re-establishment to NR cell.
+6.2.1.2	Requirements
+In RRC_CONNECTED state the UE shall be capable of sending RRCReestablishmentRequest message within Tre-establish_delay seconds from the moment it detects a loss in RRC connection. The total RRC connection delay (Tre-establish_delay) shall be less than:
+
+TUL_grant: It is the time required to acquire and process uplink grant from the target PCell. The uplink grant is required to transmit RRCReestablishmentRequest message.
+The UE re-est
+
+--------------------------------------------------------------------------------
+Result 67
+Search term: handover
+Approximate line: 2354
+
+FR1: Tmeasure_SFTD1 = 19 SMTC periods
+-	For carrier frequency in FR2: Tmeasure_SFTD1 = 152 SMTC periods
+-	For SFTD measurements in measurement gaps, and with additional SS-RSRP reporting:
+-	For carrier frequency in FR1: Tmeasure_SFTD1 = CSSFinter × 13 × Max(MGRP, SMTC period)
+-	For carrier frequency in FR2: Tmeasure_SFTD1 = CSSFinter × 104 × Max(MGRP, SMTC period)
+where CSSFinter is a carrier specific scaling factor and is determined according to CSSFwithin_gap,i in clause 9.1.5.2 for measurement conducted within measurement gaps.
+When DRX is used, the same Tmeasure_SFTD1 as for non-DRX applies, but the reporting delay depends on the DRX cycle length in use.
+In case PCell is changed due to handover, the UE shall terminate the inter-frequency SFTD measurement.
+The measurement accuracy for the SFTD measurement shall fulfil the requirement in clause 10.1.21.3. The measurement accuracy for additionally reported SS-RSRP shall fulfil the requirement in clauses 10.1.4.1 and 10.1.5.1 for neighbour cell in FR1 and FR2, respectively.
+9.3.8.3	SFTD Measurement reporting delay
+The SFTD measurement reporting delay is defined as the time between a command that will trigger an SFTD measurement report and the point when the UE starts to transmit the measurement report over the air interface. This requirement assumes that the measurement report is not delayed by other RRC signalling on the DCCH. This m
+
+--------------------------------------------------------------------------------
+Result 68
+Search term: handover
+Approximate line: 3159
+
+he reference point for the measurement result after layer 1 filtering is referred to as point B in the measurement model described in TS 36.300 [24].
+The accuracy requirements of E-UTRA measurements in this clause are valid for the reported measurement result after layer 1 filtering. The accuracy requirements are verified from the measurement report at point D in the measurement model having the layer 3 filtering disabled.
+If the UE needs measurement gaps to perform the inter-RAT NR ─ E-UTRAN FDD and NR ─ E-UTRAN TDD measurements, the relevant measurement procedure and measurement gap patterns stated in clause 9.1.2 shall apply.
+10.2.2	E-UTRAN RSRP measurements
+NOTE:	This measurement is for handover between NR and E-UTRAN.
+The measurement period of E-UTRA RSRP in RRC_CONNECTED state is specified in clause 9.4.2 and 9.4.3.
+The accuracy requirements of E-UTRA RSRP measurements in RRC_CONNECTED state and the corresponding side conditions shall be the same as the inter-frequency RSRP Accuracy Requirements in clause 9.1.3 of TS 36.133 [15].
+The reporting range and mapping specified for RSRP measurements in clause 9.1.4 of TS 36.133 [15] shall apply.
+10.2.3	E-UTRAN RSRQ measurements
+NOTE:	This measurement is for handover between NR and E-UTRAN.
+The measurement period of E-UTRA RSRQ in RRC_CONNECTED state is specified in clause 9.4.2 and 9.4.3.
+The accuracy requirements of E-UTRA RSRQ measure
+
+--------------------------------------------------------------------------------
+Result 69
+Search term: handover
+Approximate line: 3164
+
+surements, the relevant measurement procedure and measurement gap patterns stated in clause 9.1.2 shall apply.
+10.2.2	E-UTRAN RSRP measurements
+NOTE:	This measurement is for handover between NR and E-UTRAN.
+The measurement period of E-UTRA RSRP in RRC_CONNECTED state is specified in clause 9.4.2 and 9.4.3.
+The accuracy requirements of E-UTRA RSRP measurements in RRC_CONNECTED state and the corresponding side conditions shall be the same as the inter-frequency RSRP Accuracy Requirements in clause 9.1.3 of TS 36.133 [15].
+The reporting range and mapping specified for RSRP measurements in clause 9.1.4 of TS 36.133 [15] shall apply.
+10.2.3	E-UTRAN RSRQ measurements
+NOTE:	This measurement is for handover between NR and E-UTRAN.
+The measurement period of E-UTRA RSRQ in RRC_CONNECTED state is specified in clause 9.4.2 and 9.4.3.
+The accuracy requirements of E-UTRA RSRQ measurements in RRC_CONNECTED state and the corresponding side conditions shall be the same as the inter-frequency RSRQ Accuracy Requirements in clause 9.1.6 of TS 36.133 [15].
+The requirements for accuracy of E-UTRA RSRQ measurements in RRC_CONNECTED state and the corresponding side conditions shall be the same as the inter-frequency RSRQ Accuracy Requirements in clause 9.1.6 of TS 36.133 [15].
+The reporting range and mapping specified for RSRQ measurements in clause 9.1.7 of TS 36.133 [15] shall apply.
+10.2.4	E-UTRAN RSTD mea
+
+--------------------------------------------------------------------------------
+Result 70
+Search term: handover
+Approximate line: 3176
+
+The accuracy requirements and the corresponding side conditions shall be the same as the inter-frequency measurement accuracy requirements for RSTD measurements in RRC_CONNECTED in clause 9.1.10.2 of TS 36.133 [15].
+If the UE needs measurement gaps to perform the inter-RAT NR ─ E-UTRAN FDD and NR ─ E-UTRAN TDD RSTD measurements, the relevant measurement procedure and measurement gap patterns stated in clause 9.1.2 shall apply.
+The reporting range and mapping for the inter-RAT NR ─ E-UTRAN FDD and NR ─ E-UTRAN TDD RSTD measurements is the same as specified for RSTD measurements in TS 36.133 [15, clauses 9.1.10.3 and 9.1.10.4].
+10.2.5	E-UTRAN RS-SINR measurements
+NOTE:	This measurement is for handover between NR and E-UTRAN.
+The measurement period of E-UTRA RS-SINR in RRC_CONNECTED state is specified in clause 9.4.2 and 9.4.3.
+The accuracy requirements of E-UTRA RS-SINR measurements in RRC_CONNECTED state and the corresponding side conditions shall be the same as the inter-frequency RS-SINR Accuracy Requirements in clause 9.1.17.3 of TS 36.133 [15].
+The reporting range and mapping for E-UTRA RS-SINR measurements shall be the same as specified for RS-SINR measurements in clause 9.1.17.1 of TS 36.133 [15].
+11	Void
+
+
+================================================================================
+Interference
+================================================================================
+
+--------------------------------------------------------------------------------
+Result 1
+Search term: interference
+Approximate line: 85
+
+: SS/PBCH block as defined in clause 7.8.3 of TS 38.211 [6].
+Timing Advance Group: As defined in TS 38.331 [2].
+3.2	Symbols
+For the purposes of the present document, the following symbols apply:
+BWChannel	Channel bandwidth, defined in TS 38.101-1, 38.101-2 and 38.101-3 subclause 3.2
+Ês	Received energy per RE (power normalized to the subcarrier spacing) during the useful part of the symbol, i.e. excluding the cyclic prefix, at the UE antenna connector or radiated interface boundary
+FC	RF reference frequency on the channel raster, given in table 5.4.2.2-1 in TS 38.101-1 and 38.101-2
+FC,low	The Fc of the lowest carrier, expressed in MHz
+Io	The total received power density, including signal and interference, as measured at the UE antenna connector or radiated interface boundary.
+Ioc	The power spectral density (integrated in a noise bandwidth equal to the chip rate and normalized to the chip rate) of a band limited noise source (simulating interference from cells, which are not defined in a test procedure) as measured at the UE antenna connector or radiated interface boundary.
+Iot	The received power spectral density of the total noise and interference for a certain RE (power integrated over the RE and normalized to the subcarrier spacing) as measured at the UE antenna connector or radiated interface boundary
+	The power spectral density of a white noise source (average power per RE normalised to
+
+--------------------------------------------------------------------------------
+Result 2
+Search term: interference
+Approximate line: 86
+
+8.101-2 and 38.101-3 subclause 3.2
+Ês	Received energy per RE (power normalized to the subcarrier spacing) during the useful part of the symbol, i.e. excluding the cyclic prefix, at the UE antenna connector or radiated interface boundary
+FC	RF reference frequency on the channel raster, given in table 5.4.2.2-1 in TS 38.101-1 and 38.101-2
+FC,low	The Fc of the lowest carrier, expressed in MHz
+Io	The total received power density, including signal and interference, as measured at the UE antenna connector or radiated interface boundary.
+Ioc	The power spectral density (integrated in a noise bandwidth equal to the chip rate and normalized to the chip rate) of a band limited noise source (simulating interference from cells, which are not defined in a test procedure) as measured at the UE antenna connector or radiated interface boundary.
+Iot	The received power spectral density of the total noise and interference for a certain RE (power integrated over the RE and normalized to the subcarrier spacing) as measured at the UE antenna connector or radiated interface boundary
+	The power spectral density of a white noise source (average power per RE normalised to the subcarrier spacing), simulating interference from cells that are not defined in a test procedure, as measured at the UE antenna connector or radiated interface boundary
+	Physical Resource Block number as defined in clause 3.2 in TS 38.211.
+	Tim
+
+--------------------------------------------------------------------------------
+Result 3
+Search term: interference
+Approximate line: 87
+
+or or radiated interface boundary
+FC	RF reference frequency on the channel raster, given in table 5.4.2.2-1 in TS 38.101-1 and 38.101-2
+FC,low	The Fc of the lowest carrier, expressed in MHz
+Io	The total received power density, including signal and interference, as measured at the UE antenna connector or radiated interface boundary.
+Ioc	The power spectral density (integrated in a noise bandwidth equal to the chip rate and normalized to the chip rate) of a band limited noise source (simulating interference from cells, which are not defined in a test procedure) as measured at the UE antenna connector or radiated interface boundary.
+Iot	The received power spectral density of the total noise and interference for a certain RE (power integrated over the RE and normalized to the subcarrier spacing) as measured at the UE antenna connector or radiated interface boundary
+	The power spectral density of a white noise source (average power per RE normalised to the subcarrier spacing), simulating interference from cells that are not defined in a test procedure, as measured at the UE antenna connector or radiated interface boundary
+	Physical Resource Block number as defined in clause 3.2 in TS 38.211.
+	Timing offset between uplink and downlink radio frames at the UE, as defined in clause 4.2 in TS 38.213.
+	Fixed timing advance offset, as defined in clause 7.1.2 in TS 38.133.
+	Configured UE transmitted pow
+
+--------------------------------------------------------------------------------
+Result 4
+Search term: interference
+Approximate line: 88
+
+ctor or radiated interface boundary.
+Ioc	The power spectral density (integrated in a noise bandwidth equal to the chip rate and normalized to the chip rate) of a band limited noise source (simulating interference from cells, which are not defined in a test procedure) as measured at the UE antenna connector or radiated interface boundary.
+Iot	The received power spectral density of the total noise and interference for a certain RE (power integrated over the RE and normalized to the subcarrier spacing) as measured at the UE antenna connector or radiated interface boundary
+	The power spectral density of a white noise source (average power per RE normalised to the subcarrier spacing), simulating interference from cells that are not defined in a test procedure, as measured at the UE antenna connector or radiated interface boundary
+	Physical Resource Block number as defined in clause 3.2 in TS 38.211.
+	Timing offset between uplink and downlink radio frames at the UE, as defined in clause 4.2 in TS 38.213.
+	Fixed timing advance offset, as defined in clause 7.1.2 in TS 38.133.
+	Configured UE transmitted power as defined in clause 6.2.4 in TS 38.101-1, 38-101-2 and 38.101-3.
+PCMAX,c	Configured UE transmitted power on a serving cell c as defined in clause 6.2.4 in TS 38.101-1, 38-101-2 and 38.101-3
+S	Cell Selection Criterion defined in TS 38.304, subclause 5.2.3.2 for NR
+SSB_RP	Received (linear) aver
+
+--------------------------------------------------------------------------------
+Result 5
+Search term: interference
+Approximate line: 193
+
+M	Radio Resource Management
+RSSI	Received Signal Strength Indicator
+RSTD	Reference Signal Time Difference
+SA	Standalone operation mode
+SCC	Secondary Component Carrier
+SCell	Secondary Cell
+SCG	Secondary Cell Group
+SCS	Subcarrier Spacing
+SCSSSB	SSB subcarrier spacing
+SDL	Supplementary Downlink
+SFN	System Frame Number
+SFTD	SFN and Frame Timing Difference
+SI	System Information
+SIB	System Information Block
+SMTC	SSB-based Measurement Timing configuration
+SpCell	Special Cell
+SRS	Sounding Reference Signal
+SS-RSRP	Synchronization Signal based Reference Signal Received Power
+SS-RSRQ	Synchronization Signal based Reference Signal Received Quality
+SS-SINR	Synchronization Signal based Signal to Noise and Interference Ratio
+SSB	Synchronization Signal Block
+SSB_RP	Received (linear) average power of the resource elements that carry NR SSB signals and channels, measured at the UE antenna connector or radiated interface boundary.
+SSS	Secondary Synchronization Signal
+sTAG	Secondary Timing Advance Group
+SUL	Supplementary Uplink
+TA	Timing Advance
+TAG	Timing Advance Group
+TCI	Transmission Configuration Indicator
+TDD	Time Division Duplex
+TTI	Transmission Time Interval
+UE	User Equipment
+UL	Uplink
+
+3.4	Test tolerances
+The requirements given in the present document make no allowance for measurement uncertainty. The test specification 38.533 [5] defines the test tolerances.
+3.5	Frequency bands grouping
+3.5.1	Introduc
+
+--------------------------------------------------------------------------------
+Result 6
+Search term: interference
+Approximate line: 2493
+
+r frequencies.
+Table 9.4.4.1.2-1: Number of PRS positioning occasions within 
+
+The UE physical layer shall be capable of reporting RSTD for the reference cell and all the neighbor cells i out of at least (n-1) neighbor cells within  provided:
+-6 dB for all Frequency Bands for the reference cell,
+-13 dB for all Frequency Bands for neighbour cell i,
+ and   conditions apply for all subframes of at least  PRS positioning occasions,
+PRP 1,2|dBm according to TS 36.133 [15, Annex B.2.6] for a corresponding Band,
+
+ is defined as the ratio of the average received energy per PRS resource element during the useful part of the symbol to the average received power spectral density of the total noise and interference for this resource element, where the ratio is measured over all resource elements which carry PRS.
+
+The time  starts from the first subframe of the PRS positioning occasion closest in time after both the OTDOA-RequestLocationInformation message and the OTDOA assistance data in the OTDOA-ProvideAssistanceData message via LPP as specified in TS 38.305 [22], are delivered to the physical layer of the UE.
+The RSTD measurement accuracy for all measured neighbor cells i shall be fulfilled according to the accuracy as specified in clause 10.2.4.
+9.4.4.1.2.1	RSTD Measurement Reporting Delay
+This requirement assumes that the measurement report is not delayed by other LPP signalling on the DCCH. This
+

@@ -1,0 +1,4 @@
+User is downloading a large file.
+User is static at zone 2.
+There are no jammers.
+The network is congested.

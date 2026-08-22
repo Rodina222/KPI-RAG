@@ -1,0 +1,231 @@
+================================================================================
+3GPP TARGETED VALIDATION REPORT
+================================================================================
+
+Source: data\3GPP_Documents\Rel-19\38_series\38133-fy0_sB.1-XX.txt
+Characters: 20,179
+
+
+================================================================================
+Antenna Failure
+================================================================================
+
+--------------------------------------------------------------------------------
+Result 1
+Search term: antenna
+Approximate line: 75
+
+0kHz for intra-frequency measurements and is (-94.9+∆MBS,n) dBm/120kHz for inter-frequency measurements.
+The following methodology to define the Minimum SSB_RP level for power class X (PC_X) and operating band Y (Band_Y) is used:
+	
+For Intra-frequency: Minimum SSB_RP (PC_X, Band_Y) = -96.9 dBm/120kHz + EIS spherical coverage PC_X, Band_Y, 50MHz – EIS spherical coverage PC3, n260, 50MHz + Z PC_X – Z PC3 +∆MBS,n
+For Inter-frequency: Minimum SSB_RP (PC_X, Band_Y) = -94.9 dBm/120kHz + EIS spherical coverage PC_X, Band_Y, 50MHz – EIS spherical coverage PC3, n260, 50MHz + Z PC_X – Z PC3 +∆MBS,n
+B.2.1.4	Gain to SS-RSRP measurement point for FR1
+In FR1 conducted requirements are specified at the UE antenna connector, which is also the SS-RSRP measurement point.
+B.2.1.5	Gain to SS-RSRP measurement point for FR2
+B.2.1.5.1	Gain to SS-RSRP measurement point for Rx Beam Peak angle of arrival
+In clause 5.1.1 of TS 38.215 [4] SS-RSRP is defined to be measured based on the combined signal from antenna elements corresponding to a given receiver branch. The reference point for requirement parameters from the UE perspective is the input of the UE antenna array. The gain “G” relates the combined signal from antenna elements corresponding to a given receiver branch to the reference point for requirement parameters.
+The gain “G” affects absolute signal level values reported by the UE.
+
+Figure B.2.1.5.1-1:
+
+--------------------------------------------------------------------------------
+Result 2
+Search term: antenna
+Approximate line: 78
+
+m/120kHz + EIS spherical coverage PC_X, Band_Y, 50MHz – EIS spherical coverage PC3, n260, 50MHz + Z PC_X – Z PC3 +∆MBS,n
+For Inter-frequency: Minimum SSB_RP (PC_X, Band_Y) = -94.9 dBm/120kHz + EIS spherical coverage PC_X, Band_Y, 50MHz – EIS spherical coverage PC3, n260, 50MHz + Z PC_X – Z PC3 +∆MBS,n
+B.2.1.4	Gain to SS-RSRP measurement point for FR1
+In FR1 conducted requirements are specified at the UE antenna connector, which is also the SS-RSRP measurement point.
+B.2.1.5	Gain to SS-RSRP measurement point for FR2
+B.2.1.5.1	Gain to SS-RSRP measurement point for Rx Beam Peak angle of arrival
+In clause 5.1.1 of TS 38.215 [4] SS-RSRP is defined to be measured based on the combined signal from antenna elements corresponding to a given receiver branch. The reference point for requirement parameters from the UE perspective is the input of the UE antenna array. The gain “G” relates the combined signal from antenna elements corresponding to a given receiver branch to the reference point for requirement parameters.
+The gain “G” affects absolute signal level values reported by the UE.
+
+Figure B.2.1.5.1-1: Gain and Reference point for requirement parameters
+The gain range for each power class is specified in Table B.2.1.5.1-1.
+Table B.2.1.5.1-1: UE gain G, Rx beam peak direction
+
+Gain range in spherical coverage directions may be lower than in Rx beam peak direction, according to the difference
+
+--------------------------------------------------------------------------------
+Result 3
+Search term: antenna
+Approximate line: 78
+
+_RP (PC_X, Band_Y) = -94.9 dBm/120kHz + EIS spherical coverage PC_X, Band_Y, 50MHz – EIS spherical coverage PC3, n260, 50MHz + Z PC_X – Z PC3 +∆MBS,n
+B.2.1.4	Gain to SS-RSRP measurement point for FR1
+In FR1 conducted requirements are specified at the UE antenna connector, which is also the SS-RSRP measurement point.
+B.2.1.5	Gain to SS-RSRP measurement point for FR2
+B.2.1.5.1	Gain to SS-RSRP measurement point for Rx Beam Peak angle of arrival
+In clause 5.1.1 of TS 38.215 [4] SS-RSRP is defined to be measured based on the combined signal from antenna elements corresponding to a given receiver branch. The reference point for requirement parameters from the UE perspective is the input of the UE antenna array. The gain “G” relates the combined signal from antenna elements corresponding to a given receiver branch to the reference point for requirement parameters.
+The gain “G” affects absolute signal level values reported by the UE.
+
+Figure B.2.1.5.1-1: Gain and Reference point for requirement parameters
+The gain range for each power class is specified in Table B.2.1.5.1-1.
+Table B.2.1.5.1-1: UE gain G, Rx beam peak direction
+
+Gain range in spherical coverage directions may be lower than in Rx beam peak direction, according to the difference between the EIS spherical coverage value specified in TS 38.101-2 [19] clause 7.3.4 and the Reference sensitivity level specified in TS 38.101-2 [19] cl
+
+--------------------------------------------------------------------------------
+Result 4
+Search term: antenna
+Approximate line: 78
+
+e PC_X, Band_Y, 50MHz – EIS spherical coverage PC3, n260, 50MHz + Z PC_X – Z PC3 +∆MBS,n
+B.2.1.4	Gain to SS-RSRP measurement point for FR1
+In FR1 conducted requirements are specified at the UE antenna connector, which is also the SS-RSRP measurement point.
+B.2.1.5	Gain to SS-RSRP measurement point for FR2
+B.2.1.5.1	Gain to SS-RSRP measurement point for Rx Beam Peak angle of arrival
+In clause 5.1.1 of TS 38.215 [4] SS-RSRP is defined to be measured based on the combined signal from antenna elements corresponding to a given receiver branch. The reference point for requirement parameters from the UE perspective is the input of the UE antenna array. The gain “G” relates the combined signal from antenna elements corresponding to a given receiver branch to the reference point for requirement parameters.
+The gain “G” affects absolute signal level values reported by the UE.
+
+Figure B.2.1.5.1-1: Gain and Reference point for requirement parameters
+The gain range for each power class is specified in Table B.2.1.5.1-1.
+Table B.2.1.5.1-1: UE gain G, Rx beam peak direction
+
+Gain range in spherical coverage directions may be lower than in Rx beam peak direction, according to the difference between the EIS spherical coverage value specified in TS 38.101-2 [19] clause 7.3.4 and the Reference sensitivity level specified in TS 38.101-2 [19] clause 7.3.2.
+B.2.1.5.2	Gain to SS-RSRP measurement point for d
+
+
+================================================================================
+Faulty RF Filters
+================================================================================
+
+NO MATCHES FOUND
+
+================================================================================
+Doppler / Mobility
+================================================================================
+
+--------------------------------------------------------------------------------
+Result 1
+Search term: mobility
+Approximate line: 4
+
+Annex B (normative):
+Conditions for RRM requirements applicability for operating bands
+
+B.1	Conditions for NR RRC_IDLE state mobility
+B.1.1	Introduction
+In Annex B.1, the following conditions are specified:
+-	UE conditions which shall apply for UE intra-frequency measurements procedures and requirements in clause 4,
+-	UE conditions which shall apply for UE inter-frequency measurements procedures and requirements in clause 4.
+B.1.2	Conditions for measurements on NR intra-frequency cells for cell re-selection
+This clause defines the following conditions for NR intra-frequency measurements performed based on SSBs for cell re-selection: SSB_RP and SSB Ês/Iot, applicable for a corresponding operating band.
+The conditions are defined in Table B.1.2-1 for FR1 NR cells.
+The conditions are defined in Table B.1.2-2 for FR2 NR cells
+
+
+================================================================================
+Buffer Overflow
+================================================================================
+
+NO MATCHES FOUND
+
+================================================================================
+Congestion / Overload
+================================================================================
+
+NO MATCHES FOUND
+
+================================================================================
+Resource Allocation
+================================================================================
+
+NO MATCHES FOUND
+
+================================================================================
+Handover
+================================================================================
+
+NO MATCHES FOUND
+
+================================================================================
+Interference
+================================================================================
+
+--------------------------------------------------------------------------------
+Result 1
+Search term: interference
+Approximate line: 168
+
+es for both SC and CA operation.
+B.3.2.2	Receiver sensitivity relaxation for UE configured with CA in FR1
+B.3.2.2.1	Inter-band carrier aggregation
+For a UE configured with inter-band carrier aggregation with active uplink in NR band, if there is a relaxation of receiver sensitivity ΔRIB,c>0 dB as defined in clause 7.3A.3 of TS 38.101-1 [18], the relevant side conditions specifying received power levels (SSB_RP and Io) shall be increased by the amount Δ=ΔRIB,c defined for the corresponding downlink NR bands.
+If the relaxation Δ specified in this clause applies, then the relaxation specified in clause B.3.2.1 should not be applied.
+B.3.2.2.2	Reference sensitivity exceptions due to UL harmonic interference for CA
+In this clause, requirements exceptions are described for the UE configured with a band in FR1 when it is impacted by UL harmonic interference from another band in FR1 of the same CA configuration.
+A relevant side condition (SSB_RP and Io) in a requirement shall be increased by the amount Δ=L2-L1, where L1 is the reference sensitivity level specified in clause 7.3.2 of TS 38.101-1 [18], and L2 is the reference sensitivity level based on the requirements in clause 7.3A.4 of TS 38.101-1 [18], when the following conditions are fulfilled,
+-	corresponding downlink component carriers on different NR bands are configured with CA and active,
+-	the upling is configured in the NR low operating
+
+--------------------------------------------------------------------------------
+Result 2
+Search term: interference
+Approximate line: 169
+
+a UE configured with inter-band carrier aggregation with active uplink in NR band, if there is a relaxation of receiver sensitivity ΔRIB,c>0 dB as defined in clause 7.3A.3 of TS 38.101-1 [18], the relevant side conditions specifying received power levels (SSB_RP and Io) shall be increased by the amount Δ=ΔRIB,c defined for the corresponding downlink NR bands.
+If the relaxation Δ specified in this clause applies, then the relaxation specified in clause B.3.2.1 should not be applied.
+B.3.2.2.2	Reference sensitivity exceptions due to UL harmonic interference for CA
+In this clause, requirements exceptions are described for the UE configured with a band in FR1 when it is impacted by UL harmonic interference from another band in FR1 of the same CA configuration.
+A relevant side condition (SSB_RP and Io) in a requirement shall be increased by the amount Δ=L2-L1, where L1 is the reference sensitivity level specified in clause 7.3.2 of TS 38.101-1 [18], and L2 is the reference sensitivity level based on the requirements in clause 7.3A.4 of TS 38.101-1 [18], when the following conditions are fulfilled,
+-	corresponding downlink component carriers on different NR bands are configured with CA and active,
+-	the upling is configured in the NR low operating band and is active,
+-	the uplink configuration is as specified in clause 7.3A.4 of TS 38.101-1 [18], and
+-	the exception requirements specified in cl
+
+--------------------------------------------------------------------------------
+Result 3
+Search term: interference
+Approximate line: 176
+
+TS 38.101-1 [18], and L2 is the reference sensitivity level based on the requirements in clause 7.3A.4 of TS 38.101-1 [18], when the following conditions are fulfilled,
+-	corresponding downlink component carriers on different NR bands are configured with CA and active,
+-	the upling is configured in the NR low operating band and is active,
+-	the uplink configuration is as specified in clause 7.3A.4 of TS 38.101-1 [18], and
+-	the exception requirements specified in clause 7.3A.4 of TS 38.101-1 [18] apply.
+If the relaxation Δ specified in this clause applies, then the relaxation specified in clause B.3.2.1 should not be applied.
+B.3.2.2.3	Reference sensitivity exceptions due to intermodulation interference due to 2UL CA
+In this clause, requirements exceptions are described for the UE with an inter-band carrier aggregation with uplink assigned to two NR bands.
+A relevant side condition (SSB_RP and Io) in a requirement shall be increased by the amount Δ=L2-L1, where L1 is the reference sensitivity level specified in clause 7.3.2 of TS 38.101-1 [18], and L2 is the reference sensitivity level based on the requirements in clause 7.3A.5 of TS 38.101-1 [18], when the following conditions are fulfilled,
+-	corresponding downlink component carriers on different bands are configured with CA and active,
+-	uplinks are assigned to two NR bands,
+-	the exception requirements specified in clause 7.3A.5 of TS
+
+--------------------------------------------------------------------------------
+Result 4
+Search term: interference
+Approximate line: 199
+
+TBD
+B.3.4	Receiver sensitivity relaxation for SUL
+B.3.4.1	Receiver sensitivity relaxation for UE supporting SUL in FR1
+For a UE supporting a SUL configuration in FR1, if there is a relaxation of receiver sensitivity ΔRIB,c>0 dB as defined in clause 7.3C.3 of TS 38.101-1 [18], the relevant side conditions specifying received power levels (SSB_RP and Io) shall be increased by the amount Δ=ΔRIB,c defined for the corresponding downlink NR bands.
+For a UE supporting a SUL configuration in FR1, the requirement in this clause applies for both SC and SUL operation.
+B.3.4.2	Receiver sensitivity relaxation for UE configured with SUL in FR1
+B.3.4.2.1	Reference sensitivity exceptions due to UL harmonic interference for SUL
+In this clause, requirements exceptions are described for the UE with a band in FR1 when it is impacted by UL harmonic interference from another band in FR1 of the same SUL configuration.
+A relevant side condition (SSB_RP and Io) in a requirement shall be increased by the amount Δ=L2-L1, where L1 is the reference sensitivity level specified in clause 7.3.2 of TS 38.101-1 [18], and L2 is the reference sensitivity level based on the requirements in clause 7.3C.2 of TS 38.101-1 [18], when the following conditions are fulfilled,
+-	a downlink component carrier is configured in NR band and is active,
+-	the upling is configured in the NR low operating band and is active,
+-	the uplink confi
+
+--------------------------------------------------------------------------------
+Result 5
+Search term: interference
+Approximate line: 200
+
+SUL configuration in FR1, if there is a relaxation of receiver sensitivity ΔRIB,c>0 dB as defined in clause 7.3C.3 of TS 38.101-1 [18], the relevant side conditions specifying received power levels (SSB_RP and Io) shall be increased by the amount Δ=ΔRIB,c defined for the corresponding downlink NR bands.
+For a UE supporting a SUL configuration in FR1, the requirement in this clause applies for both SC and SUL operation.
+B.3.4.2	Receiver sensitivity relaxation for UE configured with SUL in FR1
+B.3.4.2.1	Reference sensitivity exceptions due to UL harmonic interference for SUL
+In this clause, requirements exceptions are described for the UE with a band in FR1 when it is impacted by UL harmonic interference from another band in FR1 of the same SUL configuration.
+A relevant side condition (SSB_RP and Io) in a requirement shall be increased by the amount Δ=L2-L1, where L1 is the reference sensitivity level specified in clause 7.3.2 of TS 38.101-1 [18], and L2 is the reference sensitivity level based on the requirements in clause 7.3C.2 of TS 38.101-1 [18], when the following conditions are fulfilled,
+-	a downlink component carrier is configured in NR band and is active,
+-	the upling is configured in the NR low operating band and is active,
+-	the uplink configuration is as specified in clause 7.3C.2 of TS 38.101-1 [18], and
+-	the exception requirements specified in clause 7.3C.2 of TS 38.101-1 [1
+

@@ -1,0 +1,177 @@
+
+===========================================================================
+Faulty RF Filters
+===========================================================================
+
+---------------------------------------------------------------------------
+Document: 38141-1-j00.txt
+Clause: D.4.3
+
+STATUS: FOUND
+Start source line: 3971
+End source line: 3973
+Extracted characters: 213
+Extracted lines: 3
+Next clause: D.4.4
+
+FULL CLAUSE CONTENT
+---------------------------------------------------------------------------
+[P4462] D.4.3	Receiver adjacent channel selectivity and narrowband blocking for BS type 1-H
+[P4464] Figure D.4.3-1: Measuring system set-up for BS type 1-H adjacent channel selectivity
+and narrowband blocking test
+
+---------------------------------------------------------------------------
+Document: 38141-1-j00.txt
+Clause: D.4.4
+
+STATUS: FOUND
+Start source line: 3974
+End source line: 3978
+Extracted characters: 632
+Extracted lines: 5
+Next clause: D.4.5
+
+FULL CLAUSE CONTENT
+---------------------------------------------------------------------------
+[P4465] D.4.4	Receiver spurious emissions
+[P4466] TAB connector(s) may be connected to the measurement equipment singularly and tested one at a time (figure D.4.2-1), or may be tested simultaneously in groups (figure D.4.2-2) where the group size may range from 2 to all the TAB connectors.
+[P4467] In all cases the measurement is per TAB connector but the measurement may be done in parallel.
+[P4469] Figure D.4.4-1: Measuring system set-up for BS type 1-H receiver spurious emissions for a single TAB connector
+[P4471] Figure D.4.4-2: Measuring system set-up for BS type 1-H receiver spurious emissions for multiple TAB connectors
+
+---------------------------------------------------------------------------
+Document: 38141-1-j00.txt
+Clause: D.6.1
+
+STATUS: FOUND
+Start source line: 3997
+End source line: 4000
+Extracted characters: 667
+Extracted lines: 4
+Next clause: D.6.2
+
+FULL CLAUSE CONTENT
+---------------------------------------------------------------------------
+[P4496] D.6.1	Performance requirements for PUSCH, single user PUCCH, PRACH on single antenna port in multipath fading conditions and for high speed condition
+[P4498] Figure D.6.1-1: Functional set-up for performance requirements for PUSCH, single user PUCCH, PRACH on single antenna port in multipath fading conditions and for High Speed Train conditions for BS with Rx diversity (2 Rx case shown)
+[P4499] NOTE 1:	For HST tests which are specified in static conditions, the Channel Simulators are assumed to simulate the Doppler shift.
+[P4500] NOTE 2:	The HARQ Feedback could be done as an RF feedback or as a digital feedback. The HARQ Feedback should be error free.
+
+---------------------------------------------------------------------------
+Document: 38141-1-j00.txt
+Clause: D.3.1
+
+STATUS: FOUND
+Start source line: 3952
+End source line: 3956
+Extracted characters: 957
+Extracted lines: 5
+Next clause: D.3.2
+
+FULL CLAUSE CONTENT
+---------------------------------------------------------------------------
+[P4435] D.3.1	Base station output power, output power dynamics, transmitter ON/OFF power, frequency error, EVM, unwanted emissions for BS type 1-H
+[P4436] TAB connectors may be connected to the measurement equipment singularly and tested one at a time (figure D.3.1-1), or may be tested simultaneously in groups (figure D.3.1-2) where the group size may range from two to all the TAB connectors which are subject to particular transmitter test in this test setup.
+[P4437] In all cases the measurement is per TAB connector but the measurement may be done in parallel.
+[P4439] Figure D.3.1-1: Measuring system set-up for BS type 1-H output power, output power dynamics, transmitter ON/OFF power, frequency error, EVM, unwanted emissions for a single TAB connector
+[P4441] Figure D.3.1-2: Measuring system set-up for BS type 1-H output power, output power dynamics, transmitter ON/OFF power, frequency error, EVM, unwanted emissions for multiple TAB connectors
+
+---------------------------------------------------------------------------
+Document: 38141-1-j00.txt
+Clause: D.4.5
+
+STATUS: FOUND
+Start source line: 3979
+End source line: 3980
+Extracted characters: 153
+Extracted lines: 2
+Next clause: D.4.6
+
+FULL CLAUSE CONTENT
+---------------------------------------------------------------------------
+[P4472] D.4.5	Receiver In-channel selectivity for BS type 1-H
+[P4474] Figure D.4.5-1: Measuring system set-up for BS type 1-H in-channel selectivity test
+
+---------------------------------------------------------------------------
+Document: 38141-1-j00.txt
+Clause: D.4.6
+
+STATUS: FOUND
+Start source line: 3981
+End source line: 3982
+Extracted characters: 148
+Extracted lines: 2
+Next clause: D.5
+
+FULL CLAUSE CONTENT
+---------------------------------------------------------------------------
+[P4475] D.4.6	Receiver intermodulation for BS type 1-H
+[P4477] Figure D.4.6-1: Measuring system set-up for BS type 1-H receiver intermodulation test
+
+---------------------------------------------------------------------------
+Document: 38141-1-j00.txt
+Clause: D.5.2
+
+STATUS: FOUND
+Start source line: 3988
+End source line: 3989
+Extracted characters: 277
+Extracted lines: 2
+Next clause: D.5.2A
+
+FULL CLAUSE CONTENT
+---------------------------------------------------------------------------
+[P4484] D.5.2	Performance requirements for PUSCH transmission on two antenna ports in multipath fading conditions
+[P4486] Figure D.5.2-1: Functional set-up for performance requirements for PUSCH transmission on two antenna ports in multipath fading conditions (2 Rx case shown)
+
+---------------------------------------------------------------------------
+Document: 38141-1-j00.txt
+Clause: D.3.3
+
+STATUS: FOUND
+Start source line: 3959
+End source line: 3963
+Extracted characters: 707
+Extracted lines: 5
+Next clause: D.3.4
+
+FULL CLAUSE CONTENT
+---------------------------------------------------------------------------
+[P4445] D.3.3	Transmitter spurious emissions for BS type 1-H
+[P4446] TAB connectors may be connected to the measurement equipment singularly and tested one at a time (figure D.3.3-1), or may be tested simultaneously in groups (figure D.3.3-2) where the group size may range from two to all the TAB connectors which are subject to transmitter spurious emissions test.
+[P4447] In all cases the measurement is per TAB connector but the measurement may be done in parallel.
+[P4449] Figure D.3.3-1: Measuring system set-up for transmitter spurious emissions for a single TAB connector
+[P4451] Figure D.3.3-2: Measuring system set-up for transmitter spurious emissions for multiple TAB connectors in parallel test
+
+---------------------------------------------------------------------------
+Document: 38141-1-j00.txt
+Clause: D.3.2
+
+STATUS: FOUND
+Start source line: 3957
+End source line: 3958
+Extracted characters: 149
+Extracted lines: 2
+Next clause: D.3.3
+
+FULL CLAUSE CONTENT
+---------------------------------------------------------------------------
+[P4442] D.3.2	Transmitter intermodulation for BS type 1-H
+[P4444] Figure D.3.2-1: Measuring system set-up for BS type 1-H transmitter intermodulation
+
+---------------------------------------------------------------------------
+Document: 38141-1-j00.txt
+Clause: D.3.4
+
+STATUS: FOUND
+Start source line: 3964
+End source line: 3965
+Extracted characters: 143
+Extracted lines: 2
+Next clause: D.4
+
+FULL CLAUSE CONTENT
+---------------------------------------------------------------------------
+[P4452] D.3.4	Time alignment error for BS type 1-H
+[P4454] Figure D.3.4-1: Measuring system set-up for BS type 1-H test of time alignment error
+

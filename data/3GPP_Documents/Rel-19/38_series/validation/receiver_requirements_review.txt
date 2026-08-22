@@ -1,0 +1,111 @@
+===========================================================================
+3GPP NORMATIVE RECEIVER REQUIREMENT REVIEW
+===========================================================================
+
+---------------------------------------------------------------------------
+CLAUSE: 7.4.1
+START SOURCE LINE: 259
+END SOURCE LINE: 266
+EXTRACTED LINES: 8
+---------------------------------------------------------------------------
+
+[P259] 7.4.1	Adjacent Channel Selectivity (ACS)	163
+[P260] 7.4.1.1	Definition and applicability	163
+[P261] 7.4.1.2	Minimum requirement	163
+[P262] 7.4.1.3	Test purpose	163
+[P263] 7.4.1.4	Method of test	164
+[P264] 7.4.1.4.1	Initial conditions	164
+[P265] 7.4.1.4.2	Procedure	164
+[P266] 7.4.1.5	Test requirements	164
+
+---------------------------------------------------------------------------
+CLAUSE: 7.4.2
+START SOURCE LINE: 267
+END SOURCE LINE: 276
+EXTRACTED LINES: 10
+---------------------------------------------------------------------------
+
+[P267] 7.4.2	In-band blocking	167
+[P268] 7.4.2.1	Definition and applicability	167
+[P269] 7.4.2.2	Minimum requirement	167
+[P270] 7.4.2.3	Test purpose	167
+[P271] 7.4.2.4	Method of test	167
+[P272] 7.4.2.4.1	Initial conditions	167
+[P273] 7.4.2.4.2	Procedure for general blocking	167
+[P274] 7.4.2.4.3	Procedure for narrowband blocking	168
+[P275] 7.4.2.5	Test requirements	168
+[P276] 7.4.2.5.1	Additional narrowband blocking requirement for Band n100	172
+
+---------------------------------------------------------------------------
+CLAUSE: 7.5
+START SOURCE LINE: 277
+END SOURCE LINE: 288
+EXTRACTED LINES: 12
+---------------------------------------------------------------------------
+
+[P277] 7.5	Out-of-band blocking	173
+[P278] 7.5.1	Definition and applicability	173
+[P279] 7.5.2	Minimum requirement	173
+[P280] 7.5.3	Test purpose	173
+[P281] 7.5.4	Method of test	173
+[P282] 7.5.4.1	Initial conditions	173
+[P283] 7.5.4.2	Procedure	173
+[P284] 7.5.5	Test requirements	174
+[P285] 7.5.5.1	General requirements	174
+[P286] 7.5.5.2	Co-location requirements	175
+[P287] 7.5.5.3	Additional requirement	176
+[P288] 7.5.5.3.1	Additional requirement for Band n101	176
+
+---------------------------------------------------------------------------
+CLAUSE: 7.6
+START SOURCE LINE: 289
+END SOURCE LINE: 299
+EXTRACTED LINES: 11
+---------------------------------------------------------------------------
+
+[P289] 7.6	Receiver spurious emissions	176
+[P290] 7.6.1	Definition and applicability	176
+[P291] 7.6.2	Minimum requirement	177
+[P292] 7.6.3	Test purpose	177
+[P293] 7.6.4	Method of test	177
+[P294] 7.6.4.1	Initial conditions	177
+[P295] 7.6.4.2	Procedure	177
+[P296] 7.6.5	Test requirements	178
+[P297] 7.6.5.1	Basic limits	178
+[P298] 7.6.5.2	BS type 1-C	179
+[P299] 7.6.5.3	BS type 1-H	179
+
+---------------------------------------------------------------------------
+CLAUSE: 7.7
+START SOURCE LINE: 300
+END SOURCE LINE: 308
+EXTRACTED LINES: 9
+---------------------------------------------------------------------------
+
+[P300] 7.7	Receiver intermodulation	179
+[P301] 7.7.1	Definition and applicability	179
+[P302] 7.7.2	Minimum requirement	179
+[P303] 7.7.3	Test purpose	179
+[P304] 7.7.4	Method of test	179
+[P305] 7.7.4.1	Initial conditions	179
+[P306] 7.7.4.2	Procedure	180
+[P307] 7.7.5	Test requirements	180
+[P308] 7.7.5.1	Additional narrowband intermodulation requirement for Band n100	187
+
+---------------------------------------------------------------------------
+CLAUSE: 7.8
+START SOURCE LINE: 309
+END SOURCE LINE: 317
+EXTRACTED LINES: 9
+---------------------------------------------------------------------------
+
+[P309] 7.8	In-channel selectivity	187
+[P310] 7.8.1	Definition and applicability	187
+[P311] 7.8.2	Minimum requirement	187
+[P312] 7.8.3	Test purpose	188
+[P313] 7.8.4	Method of test	188
+[P314] 7.8.4.1	Initial conditions	188
+[P315] 7.8.4.2	Procedure	188
+[P316] 7.8.5	Test requirements	188
+[P317] 8	Conducted performance characteristics	199
+
